@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+// Build number from CI (-PversionCode=N); defaults to 1 for local builds
+def hdoVersionCode = rootProject.hasProperty('versionCode') ? rootProject.property('versionCode').toString().toInteger() : 1
+
 android {
     namespace "in.tawang.hdoprelims"
     compileSdk rootProject.ext.compileSdkVersion
@@ -7,8 +10,8 @@ android {
         applicationId "in.tawang.hdoprelims"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode (project.findProperty("versionCode") ?: "1").toInteger()
-        versionName "1." + (project.findProperty("versionCode") ?: "0")
+        versionCode hdoVersionCode
+        versionName "1.${hdoVersionCode}"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

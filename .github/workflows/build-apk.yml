@@ -43,7 +43,8 @@ jobs:
           set -o pipefail
           if ! ./gradlew assembleRelease -PversionCode=${{ github.run_number }} --no-daemon 2>&1 | tee build.log; then
             # Surface the failure as annotations so it can be read without the full log
-            grep -E "What went wrong|error:|ERROR|Could not|> " build.log | head -30 | while IFS= read -r line; do echo "::error::$line"; done
+            msg=$( (grep -B2 -A15 "What went wrong" build.log; grep -E "^e: |error:" build.log | head -15) | head -60 | sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g')
+            echo "::error title=Gradle::$msg"
             exit 1
           fi
           cp app/build/outputs/apk/release/app-release.apk ../hdo-prelims.apk

@@ -1,0 +1,55 @@
+name: Build Android app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "www/**"
+      - "android/**"
+      - "capacitor.config.json"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install and copy the web app into Android
+        run: |
+          npm ci
+          npx cap sync android
+
+      - name: Build signed APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease -PversionCode=${{ github.run_number }} --no-daemon
+          cp app/build/outputs/apk/release/app-release.apk ../hdo-prelims.apk
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.${{ github.run_number }}
+          name: HDO Prelims 1.${{ github.run_number }}
+          make_latest: true
+          files: hdo-prelims.apk
+          body: |
+            Download **hdo-prelims.apk** below on your Android phone, open it, and allow "Install unknown apps" for your browser or file manager when Android asks.
+            Installing a newer version keeps your progress.

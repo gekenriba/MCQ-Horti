@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1f5b3c">
+<title>HDO Prelims</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one phone column; status card; tabs; stacked question cards. Same palette as the HDO drill. */
+:root{
+  --bg:#f3f6f2; --surface:#ffffff; --ink:#18231c; --muted:#5b6b60; --line:#d7e0d8;
+  --accent:#d9661f; --accent-ink:#ffffff; --forest:#1f5b3c; --forest-soft:#e3efe6;
+  --good:#1f7a46; --good-soft:#e2f3e8; --bad:#b3362c; --bad-soft:#fbe6e3; --hook:#fff3e0; --hook-line:#f0b884;
+  --f-display:"Bricolage Grotesque","Segoe UI",Roboto,system-ui,sans-serif;
+  --f-body:"Atkinson Hyperlegible",Roboto,"Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono","Roboto Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#111813; --surface:#19221c; --ink:#e7efe9; --muted:#9aaba0; --line:#2c3a31;
+  --accent:#f0884a; --accent-ink:#1a0f07; --forest:#7fc79c; --forest-soft:#1f3327;
+  --good:#6fd39a; --good-soft:#173826; --bad:#ff8a7e; --bad-soft:#3d1c19; --hook:#2e2214; --hook-line:#7a5530; color-scheme:dark}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:18px 80px;display:flex;flex-direction:column;gap:16px}
+header{display:flex;flex-direction:column;gap:4px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--forest)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,8vw,40px);line-height:1.05;margin:0}
+h1 span{color:var(--accent)}
+h2,h3{font-family:var(--f-display);margin:0}
+p{margin:0}
+.sub,.muted{color:var(--muted)}
+.notice{background:var(--forest-soft);border-radius:10px;padding:12px 14px;font-size:14px}
+.notice.warn{background:var(--bad-soft);color:var(--bad)}
+.status{background:var(--surface);border:2px solid var(--forest);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.status .big{font-family:var(--f-display);font-weight:800;font-size:22px;line-height:1.2}
+.status .when{font-family:var(--f-mono);font-variant-numeric:tabular-nums;color:var(--accent);font-size:15px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:inherit;font-weight:700;font-size:15px;border:0;border-radius:10px;padding:11px 15px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn:disabled{opacity:.5}
+.small{font-size:13px;color:var(--muted)}
+nav.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav.tabs button{font:inherit;font-weight:700;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:10px 10px;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.scorebar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.settitle{font-weight:600;font-size:20px;flex:1 1 200px;min-width:0}
+.dots{display:flex;gap:5px}
+.dot{width:14px;height:14px;border-radius:50%;border:2px solid var(--line)}
+.dot.ok{background:var(--good);border-color:var(--good)} .dot.no{background:var(--bad);border-color:var(--bad)}
+.score{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:15px}
+.qlist{display:flex;flex-direction:column;gap:22px;margin-top:16px}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 16px;min-width:0}
+.qhead{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.qnum{font-family:var(--f-display);font-weight:800;font-size:22px;color:var(--accent);margin-right:4px}
+.chip{font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--forest-soft);color:var(--forest)}
+.chip.fmt{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.stem{white-space:pre-line;margin:0 0 12px;font-size:17px}
+.mt{overflow-x:auto;margin:0 0 12px}
+.mt table{border-collapse:collapse;width:100%;font-size:15px}
+.mt th,.mt td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+.mt th{font-family:var(--f-mono);font-size:12px;text-transform:uppercase;color:var(--muted)}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;text-align:left;font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:12px;width:100%}
+.opt .k{font-family:var(--f-mono);min-width:1.6em;color:var(--muted)}
+.opt.right{border-color:var(--good);background:var(--good-soft)} .opt.right .k{color:var(--good)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)} .opt.wrong .k{color:var(--bad)}
+.opt.dim{opacity:.6}
+.insight{margin-top:14px;display:flex;flex-direction:column;gap:12px}
+.verdict{font-family:var(--f-display);font-weight:800;font-size:19px}
+.verdict.ok{color:var(--good)} .verdict.no{color:var(--bad)}
+.hook{background:var(--hook);border:1px dashed var(--hook-line);border-radius:10px;padding:10px 12px}
+.hook b,.others h4{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;display:block;margin:0 0 4px;font-weight:500}
+.hook b{color:var(--accent)} .others h4{color:var(--muted)}
+.others ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.others li{display:grid;grid-template-columns:1.8em 1fr;gap:6px}
+.others li .k{font-family:var(--f-mono);color:var(--muted)}
+.others li.is-ans .k{color:var(--good);font-weight:700}
+.final{background:var(--surface);border:2px solid var(--forest);border-radius:14px;padding:18px 16px;display:flex;flex-direction:column;gap:10px;margin-top:22px}
+.final h3{font-size:24px}
+.setlist{display:flex;flex-direction:column;gap:8px}
+.setrow{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font:inherit;color:var(--ink);text-align:left;width:100%}
+.setrow:disabled{opacity:.65}
+.setrow .meta{color:var(--muted);font-size:13px}
+.state{font-family:var(--f-mono);font-size:12px;white-space:nowrap;padding:3px 8px;border-radius:999px}
+.state.open{background:var(--hook);color:var(--accent)} .state.done{background:var(--good-soft);color:var(--good)}
+.state.part{background:var(--forest-soft);color:var(--forest)} .state.locked{border:1px solid var(--line);color:var(--muted)}
+.wk{display:flex;flex-direction:column;gap:12px}
+.wkrow{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.wkhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.wkhead strong{font-family:var(--f-display);font-size:17px}
+.pct{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--forest)} .bar i.low{background:var(--bad)} .bar i.mid{background:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:13px;background:var(--bad-soft);color:var(--bad);padding:2px 8px;border-radius:6px}
+.rules{display:flex;flex-direction:column;gap:10px}
+.rule{display:grid;grid-template-columns:2.2em 1fr;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.rule .n{font-family:var(--f-display);font-weight:800;color:var(--accent);font-size:20px;line-height:1.2}
+.empty{color:var(--muted);text-align:center;padding:40px 10px}
+@media (prefers-reduced-motion:no-preference){.insight{animation:rise .25s ease-out}@keyframes rise{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">APPSC HDO 2026 · Prelims screening</div>
+    <h1>HDO <span>Prelims</span></h1>
+    <p class="sub">10 MCQs per set from the 2026 syllabus and past APPSC papers. Your progress stays on this phone.</p>
+  </header>
+
+  <div id="note" class="notice" hidden></div>
+
+  <section class="status" aria-live="polite">
+    <div class="eyebrow" id="st-eyebrow">Your next set</div>
+    <div class="big" id="st-big">Loading…</div>
+    <div class="when" id="st-when"></div>
+    <div class="row" id="st-actions"></div>
+    <p class="small" id="st-small"></p>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-view="quiz">Current set</button>
+    <button role="tab" aria-selected="false" data-view="sets">All sets</button>
+    <button role="tab" aria-selected="false" data-view="weak">Weak areas</button>
+    <button role="tab" aria-selected="false" data-view="rules">Rules</button>
+  </nav>
+
+  <section id="view-quiz"></section>
+  <section id="view-sets" hidden></section>
+  <section id="view-weak" hidden></section>
+  <section id="view-rules" hidden>
+    <div class="rules">
+      <div class="rule"><span class="n">1</span><div><b>Sets go in order.</b> <span class="muted">Everyone starts at Set 001. A set opens only after you finish the one before it.</span></div></div>
+      <div class="rule"><span class="n">2</span><div><b>3-hour gap.</b> <span class="muted">The next set unlocks 3 hours after you finish a set. The app notifies you when it opens.</span></div></div>
+      <div class="rule"><span class="n">3</span><div><b>Unfinished set? You get a nudge.</b> <span class="muted">If a set is open and you leave it, you get a reminder every 3 hours until you finish it.</span></div></div>
+      <div class="rule"><span class="n">4</span><div><b>One tap, locked in.</b> <span class="muted">Your first choice is final, as in the exam. Then you see the explanation, a memory hook, and a note on every option.</span></div></div>
+      <div class="rule"><span class="n">5</span><div><b>Read every option note.</b> <span class="muted">Each wrong option is a fact APPSC could ask next.</span></div></div>
+      <div class="rule"><span class="n">6</span><div><b>Mistakes come back.</b> <span class="muted">Wrong answers collect under Weak areas by section and topic. Revise them before the next set.</span></div></div>
+      <div class="rule"><span class="n">7</span><div><b>Check what says “verify”.</b> <span class="muted">Questions are written by Claude from standard texts. Where the source line says verify, cross-check with your notes or the Handbook of Horticulture.</span></div></div>
+      <div class="rule"><span class="n">8</span><div><b>New sets arrive by themselves.</b> <span class="muted">The app downloads new sets when it opens. If you finish every set, you wait for the next one.</span></div></div>
+    </div>
+    <p class="small" style="margin-top:14px" id="about"></p>
+  </section>
+</div>
+
+<script src="config.js"></script>
+<script>
+(function(){
+  const GAP_MS = 3*60*60*1000, TOL_MS = 10*60*1000;
+  const NID_UNLOCK = 1001, NID_NUDGE = 1002;
+  const $ = (s,r=document)=>r.querySelector(s);
+  const el = (t,c,x)=>{const e=document.createElement(t); if(c) e.className=c; if(x!=null) e.textContent=x; return e;};
+  const Cap = window.Capacitor, native = !!(Cap && Cap.isNativePlatform && Cap.isNativePlatform());
+  const LN = native && Cap.Plugins ? Cap.Plugins.LocalNotifications : null;
+  const AppP = native && Cap.Plugins ? Cap.Plugins.App : null;
+  const S = { sets:[], resp:load('hdo-resp',{}), current:null, view:'quiz', syncedAt:load('hdo-synced',null), notifPerm:null };
+
+  function load(k,d){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } }
+  function store(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} }
+
+  // ---------- tabs ----------
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
+  function showView(v){
+    S.view=v;
+    document.querySelectorAll('nav.tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===v)));
+    ['quiz','sets','weak','rules'].forEach(n=>{$('#view-'+n).hidden = n!==v;});
+  }
+
+  const fmt = ms=>{try{return new Date(ms).toLocaleString('en-IN',{weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});}catch(e){return new Date(ms).toISOString();}};
+  const short = s=>(s.title||s.id).replace(/ ·.*/,'');
+  const rOf = id => S.resp[id] || {setId:id, answers:{}};
+  const nAns = id => Object.keys(rOf(id).answers||{}).length;
+  const isDone = s => { const t=(s.questions||[]).length; return t>0 && nAns(s.id)>=t; };
+  const doneAt = s => { const r=rOf(s.id); if(r.completedAt) return Date.parse(r.completedAt); const ts=Object.values(r.answers||{}).map(a=>Date.parse(a.at)||0); return ts.length?Math.max(...ts):0; };
+
+  // ---------- the unlock rule ----------
+  function progress(){
+    const out={status:{}, openSet:null, nextUnlock:null, nextSet:null, doneCount:0, caughtUp:false};
+    let prevDoneAt=null, blocked=false;
+    S.sets.forEach((s,i)=>{
+      if(blocked){ out.status[s.id]='locked'; return; }
+      if(isDone(s)){ out.status[s.id]='done'; out.doneCount++; prevDoneAt=doneAt(s); return; }
+      const started = nAns(s.id)>0;
+      const unlockAt = (i===0 || started) ? 0 : prevDoneAt + GAP_MS - TOL_MS;
+      if(Date.now() >= unlockAt){ out.status[s.id]='open'; out.openSet=s; }
+      else { out.status[s.id]='locked'; out.nextUnlock=prevDoneAt+GAP_MS; out.nextSet=s; }
+      blocked=true;
+    });
+    if(!blocked && S.sets.length) out.caughtUp=true;
+    return out;
+  }
+
+  // ---------- notifications ----------
+  async function checkPerm(){
+    if(!LN) return;
+    try{ const p=await LN.checkPermissions(); S.notifPerm=p.display; }catch(e){}
+  }
+  async function askPerm(){
+    if(!LN) return;
+    try{ const p=await LN.requestPermissions(); S.notifPerm=p.display; }catch(e){}
+    try{ await LN.createChannel({id:'sets',name:'Question sets',description:'When a new set opens, and reminders for unfinished sets',importance:4,vibration:true}); }catch(e){}
+    renderStatus(); scheduleNotices();
+  }
+  async function scheduleNotices(){
+    if(!LN || S.notifPerm!=='granted') return;
+    try{ await LN.cancel({notifications:[{id:NID_UNLOCK},{id:NID_NUDGE}]}); }catch(e){}
+    const P=progress(), list=[];
+    if(P.nextSet && P.nextUnlock>Date.now()){
+      list.push({id:NID_UNLOCK, channelId:'sets', title:short(P.nextSet)+' is open', body:'10 new HDO prelims questions are ready. About 10 minutes.', schedule:{at:new Date(P.nextUnlock), allowWhileIdle:true}});
+    }
+    if(P.openSet){
+      const n=nAns(P.openSet.id), t=(P.openSet.questions||[]).length;
+      list.push({id:NID_NUDGE, channelId:'sets', title:short(P.openSet)+' is still waiting', body:(n?n+'/'+t+' done. ':'')+'Finish it to unlock the next set.', schedule:{at:new Date(Date.now()+GAP_MS), allowWhileIdle:true}});
+    }
+    if(list.length){ try{ await LN.schedule({notifications:list}); }catch(e){} }
+  }
+
+  // ---------- status card ----------
+  function renderStatus(){
+    const P=progress(), big=$('#st-big'), when=$('#st-when'), act=$('#st-actions'), small=$('#st-small'), eb=$('#st-eyebrow');
+    act.replaceChildren(); when.textContent='';
+    small.textContent = (S.sets.length? P.doneCount+' of '+S.sets.length+' sets done. ':'') + (S.syncedAt?'Sets checked '+fmt(S.syncedAt)+'.':'');
+    if(!S.sets.length){ eb.textContent='Getting started'; big.textContent='No sets yet.'; when.textContent='Connect to the internet once to download the sets.'; }
+    else if(P.openSet){
+      eb.textContent='Ready now'; big.textContent=short(P.openSet)+' is open';
+      const n=nAns(P.openSet.id); when.textContent = n? (n+' / '+(P.openSet.questions||[]).length+' answered') : '10 questions, about 10 minutes';
+      const b=el('button','btn',n?'Continue':'Start set'); b.type='button';
+      b.addEventListener('click',()=>{S.current=P.openSet.id; renderQuiz(); showView('quiz'); $('nav.tabs').scrollIntoView({behavior:'smooth'});});
+      act.append(b);
+    } else if(P.nextSet){
+      eb.textContent='Next set unlocks'; big.textContent=short(P.nextSet);
+      when.textContent=fmt(P.nextUnlock)+' · in '+countdown(P.nextUnlock-Date.now());
+    } else if(P.caughtUp){
+      eb.textContent='All caught up'; big.textContent='You have finished every set.';
+      when.textContent='New sets download when you open the app.';
+    }
+    if(LN && S.notifPerm && S.notifPerm!=='granted'){
+      const b=el('button','btn ghost','Turn on notifications'); b.type='button'; b.addEventListener('click',askPerm); act.append(b);
+      if(S.notifPerm==='denied') small.textContent+=' Notifications are off for this app. Turn them on in Android Settings › Apps › HDO Prelims.';
+    }
+    const r=el('button','btn ghost','Check for new sets'); r.type='button'; r.addEventListener('click',()=>sync(true)); act.append(r);
+  }
+  function countdown(ms){ if(ms<=0) return 'a moment'; const h=Math.floor(ms/3600000), m=Math.ceil((ms%3600000)/60000); return (h?h+' h ':'')+m+' min'; }
+  setInterval(()=>renderStatus(), 60000);
+
+  // ---------- quiz ----------
+  function pickCurrent(){
+    const P=progress();
+    if(S.current && P.status[S.current] && P.status[S.current]!=='locked') return;
+    S.current = P.openSet ? P.openSet.id : ([...S.sets].reverse().find(s=>P.status[s.id]==='done')||{}).id || null;
+  }
+  function renderQuiz(){
+    const root=$('#view-quiz'); root.replaceChildren();
+    const set=S.sets.find(s=>s.id===S.current);
+    if(!set){ root.append(el('p','empty','Nothing to answer right now. The card above says when your next set opens.')); return; }
+    const r=rOf(set.id), qs=set.questions||[];
+    const bar=el('div','scorebar'); bar.append(el('h2','settitle',set.title||set.id));
+    const dots=el('div','dots'); qs.forEach(q=>{const a=r.answers[q.id]; dots.append(el('span','dot'+(a?(a.correct?' ok':' no'):'')));}); bar.append(dots);
+    bar.append(el('span','score',Object.values(r.answers).filter(a=>a.correct).length+' / '+qs.length));
+    root.append(bar);
+    const list=el('div','qlist'); qs.forEach((q,i)=>list.append(renderQ(set,q,i,r.answers[q.id]))); root.append(list);
+    if(isDone(set)) root.append(renderFinal(set));
+  }
+  function renderQ(set,q,i,ans){
+    const card=el('article','q'); card.id='q-'+set.id+'-'+q.id;
+    const h=el('div','qhead'); h.append(el('span','qnum',String(i+1).padStart(2,'0')));
+    if(q.section) h.append(el('span','chip',q.section)); if(q.format) h.append(el('span','chip fmt',q.format));
+    card.append(h); card.append(el('p','stem',q.stem));
+    if(q.match&&q.match.left&&q.match.right){
+      const box=el('div','mt'),t=el('table'),tr=el('tr'); tr.append(el('th',null,q.match.leftTitle||'List I')); tr.append(el('th',null,q.match.rightTitle||'List II')); t.append(tr);
+      for(let k=0;k<Math.max(q.match.left.length,q.match.right.length);k++){const r2=el('tr'); r2.append(el('td',null,q.match.left[k]||'')); r2.append(el('td',null,q.match.right[k]||'')); t.append(r2);}
+      box.append(t); card.append(box);
+    }
+    const opts=el('div','opts');
+    (q.options||[]).forEach(o=>{
+      const b=el('button','opt'); b.type='button';
+      b.append(el('span','k',o.k)); b.append(el('span',null,o.text));
+      if(ans){ b.disabled=true; b.classList.add(o.k===q.answer?'right':o.k===ans.chosen?'wrong':'dim'); }
+      else b.addEventListener('click',()=>choose(set,q,o.k));
+      opts.append(b);
+    });
+    card.append(opts);
+    if(ans){
+      const box=el('div','insight'); const ao=(q.options||[]).find(o=>o.k===q.answer);
+      box.append(el('div','verdict '+(ans.correct?'ok':'no'), ans.correct?'Correct.':'Not this one. Answer: '+q.answer+(ao?' ('+ao.text+')':'')));
+      if(q.explanation) box.append(el('p',null,q.explanation));
+      if(q.hook){const hk=el('div','hook'); hk.append(el('b',null,'Memory hook')); hk.append(el('span',null,q.hook)); box.append(hk);}
+      if(q.optionNotes){const o=el('div','others'); o.append(el('h4',null,'Know every option')); const ul=el('ul');
+        (q.options||[]).forEach(op=>{const n=q.optionNotes[op.k]; if(!n) return; const li=el('li',op.k===q.answer?'is-ans':''); li.append(el('span','k',op.k)); li.append(el('span',null,n)); ul.append(li);});
+        o.append(ul); box.append(o);}
+      if(q.source) box.append(el('div','small','Source / check: '+q.source));
+      card.append(box);
+    }
+    return card;
+  }
+  function renderFinal(set){
+    const qs=set.questions||[], r=rOf(set.id), box=el('div','final');
+    const c=qs.filter(q=>r.answers[q.id]&&r.answers[q.id].correct).length;
+    box.append(el('h3',null,'Set complete: '+c+' / '+qs.length));
+    const miss=qs.filter(q=>r.answers[q.id]&&!r.answers[q.id].correct);
+    box.append(el('p',null, miss.length?'Revise before the next set: '+miss.map(q=>q.topic||q.section).join('; ')+'.':'Clean sweep.'));
+    const P=progress();
+    if(P.nextSet) box.append(el('p','muted','Next set opens '+fmt(P.nextUnlock)+(S.notifPerm==='granted'?'. You will get a notification.':'.')));
+    else if(P.openSet && P.openSet.id!==set.id){ const b=el('button','btn','Open '+short(P.openSet)); b.type='button'; b.addEventListener('click',()=>{S.current=P.openSet.id; renderAll(); window.scrollTo({top:0});}); box.append(b); }
+    else box.append(el('p','muted','You have done every set. New ones download when you open the app.'));
+    return box;
+  }
+  function choose(set,q,k){
+    const r=rOf(set.id); if(r.answers[q.id]) return;
+    const ans={chosen:k, correct:k===q.answer, at:new Date().toISOString(), section:q.section||'', topic:q.topic||''};
+    const nx={setId:set.id, answers:Object.assign({},r.answers,{[q.id]:ans})};
+    const v=Object.values(nx.answers); nx.attempted=v.length; nx.score=v.filter(a=>a.correct).length; nx.total=(set.questions||[]).length;
+    if(nx.attempted>=nx.total) nx.completedAt=ans.at;
+    S.resp[set.id]=nx; store('hdo-resp',S.resp);
+    const old=document.getElementById('q-'+set.id+'-'+q.id); if(old) old.replaceWith(renderQ(set,q,(set.questions||[]).indexOf(q),ans));
+    const bar=$('#view-quiz .scorebar'); if(bar){ bar.querySelectorAll('.dot').forEach((d,i)=>{const a=nx.answers[(set.questions[i]||{}).id]; d.className='dot'+(a?(a.correct?' ok':' no'):'');}); bar.querySelector('.score').textContent=nx.score+' / '+nx.total; }
+    if(nx.completedAt){
+      $('#view-quiz').append(renderFinal(set));
+      if(LN && S.notifPerm!=='granted' && S.notifPerm!=='denied') askPerm();
+    }
+    renderStatus(); renderSets(); renderWeak(); scheduleNotices();
+  }
+
+  // ---------- all sets ----------
+  function renderSets(){
+    const root=$('#view-sets'); root.replaceChildren();
+    if(!S.sets.length){ root.append(el('p','empty','No sets yet.')); return; }
+    const P=progress(), list=el('div','setlist');
+    [...S.sets].reverse().forEach(s=>{
+      const st=P.status[s.id], b=el('button','setrow'); b.type='button';
+      const left=el('div'); left.style.minWidth='0'; left.append(el('div',null,short(s)));
+      left.append(el('div','meta',(s.topics||[]).slice(0,4).join(', ')));
+      const r=rOf(s.id), n=nAns(s.id), t=(s.questions||[]).length;
+      const lab = st==='done'?(r.score+' / '+t): st==='open'?(n?n+'/'+t+' done':'Open'): 'Locked';
+      b.append(left); b.append(el('span','state '+(st==='done'?'done':st==='open'?(n?'part':'open'):'locked'),lab));
+      if(st==='locked') b.disabled=true;
+      else b.addEventListener('click',()=>{S.current=s.id; renderQuiz(); showView('quiz'); window.scrollTo({top:0});});
+      list.append(b);
+    });
+    root.append(list);
+  }
+
+  // ---------- weak areas ----------
+  function renderWeak(){
+    const root=$('#view-weak'); root.replaceChildren();
+    const secs={}, order=[];
+    S.sets.forEach(s=>{ const r=rOf(s.id); (s.questions||[]).forEach(q=>{ const a=r.answers[q.id]; if(!a) return;
+      const k=q.section||'Other'; if(!secs[k]){secs[k]={att:0,cor:0,weak:[]}; order.push(k);} secs[k].att++; if(a.correct) secs[k].cor++;
+      else if(q.topic && !secs[k].weak.includes(q.topic)) secs[k].weak.unshift(q.topic); }); });
+    if(!order.length){ root.append(el('p','empty','Finish your first set and your accuracy by section appears here.')); return; }
+    const wk=el('div','wk');
+    order.sort((a,b)=>secs[a].cor/secs[a].att - secs[b].cor/secs[b].att).forEach(k=>{
+      const s=secs[k], p=100*s.cor/s.att, row=el('div','wkrow'), h=el('div','wkhead');
+      h.append(el('strong',null,k)); h.append(el('span','pct',s.cor+'/'+s.att+' · '+Math.round(p)+'%')); row.append(h);
+      const bar=el('div','bar'), i=el('i',p<50?'low':p<75?'mid':''); i.style.width=p+'%'; bar.append(i); row.append(bar);
+      if(s.weak.length){ const t=el('div','tags'); s.weak.slice(0,8).forEach(w=>t.append(el('span','tag',w))); row.append(t); }
+      wk.append(row);
+    });
+    root.append(wk);
+  }
+
+  // ---------- sets: bundled + cached + downloaded ----------
+  function merge(lists){
+    const map={}; lists.forEach(l=>(l||[]).forEach(s=>{ if(s&&s.id&&Array.isArray(s.questions)&&s.questions.length) map[s.id]=s; }));
+    return Object.values(map).sort((a,b)=>(a.createdAt||'').localeCompare(b.createdAt||''));
+  }
+  async function sync(manual){
+    const url=(window.HDO_CONFIG||{}).SETS_URL;
+    if(!url || url.includes('OWNER/REPO')) return;
+    try{
+      const res=await fetch(url+'?t='+Date.now(),{cache:'no-store'});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const j=await res.json(); const before=S.sets.length;
+      S.sets=merge([S.sets, j.sets]); store('hdo-sets',S.sets);
+      S.syncedAt=Date.now(); store('hdo-synced',S.syncedAt);
+      $('#note').hidden=true;
+      if(manual) note(S.sets.length>before? (S.sets.length-before)+' new set(s) downloaded.' : 'No new sets yet.');
+      renderAll(); scheduleNotices();
+    }catch(e){ if(manual) note('Could not check for new sets. Connect to the internet and try again.',true); }
+  }
+  function note(m,warn){ const n=$('#note'); n.textContent=m; n.className='notice'+(warn?' warn':''); n.hidden=false; }
+  function renderAll(){ pickCurrent(); renderStatus(); renderQuiz(); renderSets(); renderWeak(); }
+
+  (async()=>{
+    let bundled=[];
+    try{ const r=await fetch('sets.json'); bundled=(await r.json()).sets||[]; }catch(e){}
+    S.sets=merge([bundled, load('hdo-sets',[])]);
+    await checkPerm();
+    // Permission is asked after the first finished set, or from the "Turn on notifications" button.
+    if(LN){ try{ await LN.createChannel({id:'sets',name:'Question sets',description:'When a new set opens, and reminders for unfinished sets',importance:4,vibration:true}); }catch(e){} }
+    renderAll(); scheduleNotices(); sync(false);
+    if(AppP) AppP.addListener('appStateChange',st=>{ if(st.isActive){ checkPerm().then(()=>{ renderAll(); sync(false); }); } });
+    if(LN) LN.addListener('localNotificationActionPerformed',()=>{ const P=progress(); if(P.openSet){ S.current=P.openSet.id; renderAll(); showView('quiz'); } });
+    $('#about').textContent='Questions: '+S.sets.length+' sets. Progress is saved only on this phone; uninstalling the app erases it.';
+  })();
+})();
+</script>
+</body>
+</html>

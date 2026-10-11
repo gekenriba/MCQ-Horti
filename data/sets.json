@@ -1,0 +1,3085 @@
+{
+ "updatedAt": "2026-10-11T07:45:00Z",
+ "sets": [
+  {
+   "createdAt": "2026-10-06T22:30:00Z",
+   "questions": [
+    {
+     "answer": "A",
+     "explanation": "Avocado flowers open female first, close, and reopen male the next day; Type A and Type B cultivars do this at opposite times of day, so you plant both. Kiwifruit has separate male and female vines. Coorg Honey Dew and Pusa Delicious papaya have female and hermaphrodite plants only (no males). Walnut has separate male catkins and female flowers on the same tree, maturing at different times.",
+     "format": "Match the list",
+     "hook": "Avocado says 'Ladies first' (female phase opens first). Kiwi needs a 'husband vine' (dioecious). Coorg Honey Dew has 'no men' (gyno-dioecious).",
+     "id": "q1",
+     "match": {
+      "left": [
+       "a. Avocado",
+       "b. Kiwifruit",
+       "c. Papaya 'Coorg Honey Dew'",
+       "d. Walnut"
+      ],
+      "right": [
+       "1. Dioecious",
+       "2. Synchronous protogynous diurnal dichogamy",
+       "3. Gynodioecious",
+       "4. Monoecious with dichogamy (protandrous or protogynous cultivars)"
+      ]
+     },
+     "optionNotes": {
+      "A": "Correct pairing.",
+      "B": "Swaps avocado and kiwi. Kiwi is the dioecious one (male : female vines about 1 : 8–9).",
+      "C": "Puts papaya as dioecious. Ordinary papaya varieties (e.g. Pusa Dwarf) are dioecious, but Coorg Honey Dew is gynodioecious.",
+      "D": "Walnut is not 'synchronous diurnal'. That phrase belongs only to avocado."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "a-2, b-1, c-3, d-4"
+      },
+      {
+       "k": "B",
+       "text": "a-1, b-2, c-3, d-4"
+      },
+      {
+       "k": "C",
+       "text": "a-2, b-3, c-1, d-4"
+      },
+      {
+       "k": "D",
+       "text": "a-4, b-1, c-3, d-2"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Sex forms & dichogamy. Cross-check with CSM 'Basic Horticulture' notes.",
+     "stem": "Match List I (crop) with List II (flowering / sex behaviour):",
+     "topic": "Sex forms & dichogamy"
+    },
+    {
+     "answer": "D",
+     "explanation": "Grape (V. vinifera) is 2n = 38. The other three pairs are correct.",
+     "format": "Odd one out",
+     "hook": "'Mango turns 40, Grape stays 38, Apple 34, Papaya just 18 (young).'",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Correct: mango 2n = 40 (an allotetraploid).",
+      "B": "Correct: apple 2n = 34 (most cultivars; triploids like Jonagold = 51).",
+      "C": "Correct: papaya 2n = 18; sex is controlled by the M/Mh/m locus.",
+      "D": "Wrong pair: grape is 2n = 38."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Mango – 2n = 40"
+      },
+      {
+       "k": "B",
+       "text": "Apple – 2n = 34"
+      },
+      {
+       "k": "C",
+       "text": "Papaya – 2n = 18"
+      },
+      {
+       "k": "D",
+       "text": "Grape (Vitis vinifera) – 2n = 40"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Standard values; verify with a chromosome-number table (some guidebooks misprint kiwi, mulberry and plum).",
+     "stem": "Which of the following crop–chromosome number pairs is INCORRECTLY matched?",
+     "topic": "Chromosome numbers"
+    },
+    {
+     "answer": "B",
+     "explanation": "Litchi, longan and rambutan (Nephelium lappaceum) are all Sapindaceae, and in all three you eat the fleshy aril. Statement 3 is wrong.",
+     "format": "Statements",
+     "hook": "'SAPinDaceae = Sweet Aril Pulp': litchi, longan, rambutan. Anacardiaceae is the 'cashew–mango' family.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Misses statement 2: the aril is the edible part of litchi.",
+      "B": "Correct.",
+      "C": "Statement 3 is false: rambutan is Sapindaceae.",
+      "D": "Statement 3 is false."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Families of fruit crops (Sapindaceae). Cross-check with the Handbook of Horticulture.",
+     "stem": "Consider the following statements:\n1. Litchi (Litchi chinensis) and longan (Dimocarpus longan) belong to the family Sapindaceae.\n2. The edible part of litchi is the aril.\n3. Rambutan belongs to the family Anacardiaceae.\nWhich of the statements given above is/are correct?",
+     "topic": "Families – Sapindaceae"
+    },
+    {
+     "answer": "C",
+     "explanation": "Arunachal Orange received its GI certificate on 23 March 2015 (application filed 2012). It is a mandarin grown in districts such as Lower Dibang Valley, East Siang and Lohit (Wakro area).",
+     "format": "Single answer",
+     "hook": "'2015 – Arunachal's orange went legal (GI).' Think of the Wakro / Dambuk orange festival belt.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Nagpur Orange is a GI of Maharashtra (a Nagpur mandarin).",
+      "B": "Coorg Orange is a GI of Karnataka.",
+      "C": "Correct: Arunachal Orange GI, certificate 23 Mar 2015.",
+      "D": "Kinnow is a hybrid (King × Willow Leaf mandarin) bred in California; it is the main mandarin of Punjab. It is not a GI."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Nagpur Orange"
+      },
+      {
+       "k": "B",
+       "text": "Coorg Orange"
+      },
+      {
+       "k": "C",
+       "text": "Arunachal Orange"
+      },
+      {
+       "k": "D",
+       "text": "Kinnow"
+      }
+     ],
+     "section": "AP horticulture",
+     "source": "GI registry; district list from Vikaspedia. Verify districts with AP notes.",
+     "stem": "Which GI-tagged citrus is registered for Arunachal Pradesh?",
+     "topic": "GI-tagged produce"
+    },
+    {
+     "answer": "D",
+     "explanation": "Cole crops (cauliflower, cabbage) are cross-pollinated by insects and cross freely with each other, so they need the widest isolation: 1600 m for foundation and 1000 m for certified seed. Vegetable seed production is a new topic in the 2026 syllabus.",
+     "format": "Single answer",
+     "hook": "'Cole crops are social, keep them a MILE apart': 1600 m ≈ 1 mile (foundation).",
+     "id": "q5",
+     "optionNotes": {
+      "A": "50 m is foundation seed of tomato (self-pollinated; certified 25 m).",
+      "B": "200 m is foundation seed of brinjal (often cross-pollinated; certified 100 m).",
+      "C": "1000 m is CERTIFIED seed of cauliflower. It is also foundation seed of onion (certified 500 m).",
+      "D": "Correct: foundation seed, cauliflower and cabbage."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "50 m"
+      },
+      {
+       "k": "B",
+       "text": "200 m"
+      },
+      {
+       "k": "C",
+       "text": "1000 m"
+      },
+      {
+       "k": "D",
+       "text": "1600 m"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "IMSCS values from standard texts. Verify against a vegetable seed-production table.",
+     "stem": "Under the Indian Minimum Seed Certification Standards, the minimum isolation distance for FOUNDATION seed of cauliflower is:",
+     "topic": "Vegetable seed production – isolation"
+    },
+    {
+     "answer": "A",
+     "explanation": "Ethephon (2-chloroethylphosphonic acid) is stable in the acidic spray solution and breaks down at the higher pH inside the cell, releasing ethylene. Pineapple is one of the few crops where ethylene induces flowering. Growers use it to get uniform, scheduled harvests. This matters for the AP foothills pineapple belt.",
+     "format": "Assertion–Reason",
+     "hook": "'Ethephon = Ethylene in a phone (packed inside)'. Pineapple is the odd one: ethylene makes it FLOWER, not just ripen.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Correct: R is the mechanism behind A.",
+      "B": "Use this only when R is true but explains something else.",
+      "C": "R is true. Ethephon is an ethylene-releasing compound.",
+      "D": "A is true. Ethephon, NAA and calcium carbide are all used for pineapple flower induction."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true, but R is NOT the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true, but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false, but R is true"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Standard PGR facts; CSM Plant Physiology notes.",
+     "stem": "Assertion (A): Ethephon is sprayed on pineapple to induce uniform flowering.\nReason (R): Ethephon breaks down inside plant tissue to release ethylene.",
+     "topic": "Ethylene – pineapple flowering"
+    },
+    {
+     "answer": "A",
+     "explanation": "The Shoemaker–McLean–Pratt (SMP) single-buffer method measures how far the soil lowers the pH of a buffer. That drop tells you how much lime is needed. Soil acidity management is a new 2026 syllabus line, and most AP hill soils are acidic.",
+     "format": "Single answer",
+     "hook": "'SMP = Sour soil? Measure, then Pour lime.'",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Correct: lime requirement.",
+      "B": "Walkley & Black measures organic carbon (wet oxidation with chromic acid).",
+      "C": "Olsen's method measures available P in neutral to alkaline soils (0.5 M NaHCO₃, pH 8.5).",
+      "D": "Bray's P-1 measures available P in ACID soils. This is a trap option because it is also an acid-soil method."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "SMP buffer method"
+      },
+      {
+       "k": "B",
+       "text": "Walkley and Black method"
+      },
+      {
+       "k": "C",
+       "text": "Olsen's method"
+      },
+      {
+       "k": "D",
+       "text": "Bray's P-1 method"
+      }
+     ],
+     "section": "Soil science",
+     "source": "Standard soil-testing methods; CSM Soil Science notes.",
+     "stem": "Which method is used to estimate the LIME REQUIREMENT of acid soils, such as those common in Arunachal Pradesh?",
+     "topic": "Soil acidity – lime requirement"
+    },
+    {
+     "answer": "B",
+     "explanation": "Greening has no cure. Management is IDM: disease-free budwood and nursery plants, psyllid control, and removing infected trees. Copper sprays target fungal and bacterial leaf diseases such as canker, not a bacterium living inside the phloem. Greening is a recognised problem in AP mandarin orchards.",
+     "format": "Statements",
+     "hook": "'Psyllid posts the Liberibacter letter.' Greening = yellow shoot, blotchy mottle, lopsided bitter fruit.",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Misses statement 2: Diaphorina citri is the vector.",
+      "B": "Correct.",
+      "C": "Statement 3 is false: there is no curative spray.",
+      "D": "Statement 3 is false."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Standard plant pathology texts; ICAR literature on citrus greening in Arunachal Pradesh.",
+     "stem": "Consider the following statements about citrus greening (Huanglongbing):\n1. It is caused by a phloem-limited bacterium, 'Candidatus Liberibacter asiaticus'.\n2. It is spread by the Asian citrus psyllid, Diaphorina citri.\n3. It can be cured in infected trees by copper oxychloride sprays.\nWhich of the statements given above is/are correct?",
+     "topic": "Citrus greening (HLB)"
+    },
+    {
+     "answer": "B",
+     "explanation": "Chirke (mosaic or streak) and Foorkey (bunchy, stunted dwarf clumps) are the two major viral diseases of large cardamom (Amomum subulatum). Both are aphid-transmitted.",
+     "format": "Single answer",
+     "hook": "Large cardamom has Nepali-named diseases: 'Chirke' = streaked, 'Foorkey' = bunched (Sikkim belt).",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Small cardamom (Elettaria cardamomum) has 'Katte' (mosaic) and the 'Kokke kandu' / vein-clearing viruses.",
+      "B": "Correct: Amomum subulatum, Zingiberaceae.",
+      "C": "Banana has Bunchy Top (BBTV), spread by the aphid Pentalonia nigronervosa.",
+      "D": "Ginger's key problems are soft rot (Pythium) and bacterial wilt (Ralstonia)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Small cardamom"
+      },
+      {
+       "k": "B",
+       "text": "Large cardamom"
+      },
+      {
+       "k": "C",
+       "text": "Banana"
+      },
+      {
+       "k": "D",
+       "text": "Ginger"
+      }
+     ],
+     "section": "Spices & plantation",
+     "source": "Literature on viral diseases of large cardamom (Sikkim/NE). Verify the vector species.",
+     "stem": "'Chirke' and 'Foorkey' are viral diseases of which crop, grown in parts of Arunachal Pradesh and Sikkim?",
+     "topic": "Large cardamom diseases"
+    },
+    {
+     "answer": "B",
+     "explanation": "The scheme (launched 3 Sep 2021) is credit-linked. The state gives a 45% back-ended subsidy, a bank lends 45%, and the farmer puts in 10%. A sister scheme, Atmanirbhar Krishi Yojana, covers agriculture.",
+     "format": "Single answer",
+     "hook": "'45-45-10: Govt, Bank, Me.' The farmer pays only one-tenth.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Not this scheme. A 50:50 split is typical of some older MIDH components.",
+      "B": "Correct.",
+      "C": "Wrong split.",
+      "D": "90:10 is the Centre:State funding share for NE and Himalayan states in centrally sponsored schemes such as MIDH. It is not a farmer-level pattern."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "50% subsidy : 50% farmer share"
+      },
+      {
+       "k": "B",
+       "text": "45% subsidy : 45% bank loan : 10% farmer share"
+      },
+      {
+       "k": "C",
+       "text": "60% subsidy : 30% bank loan : 10% farmer share"
+      },
+      {
+       "k": "D",
+       "text": "90% central : 10% state share"
+      }
+     ],
+     "section": "AP schemes & economics",
+     "source": "GKToday. Verify with the AP Horticulture Dept circular.",
+     "stem": "Under Arunachal Pradesh's Atmanirbhar Bagwani Yojana (launched 2021), what is the funding pattern for a horticulture project?",
+     "topic": "Atmanirbhar Bagwani Yojana"
+    }
+   ],
+   "title": "Set 001 · 07 Oct, 04:00",
+   "topics": [
+    "Pomology",
+    "AP horticulture",
+    "Olericulture",
+    "PGR",
+    "Soil science",
+    "Plant pathology",
+    "Spices & plantation"
+   ],
+   "sourceSetId": "set-20261007-0400",
+   "id": "set-20261007-0400"
+  },
+  {
+   "createdAt": "2026-10-07T04:29:00Z",
+   "questions": [
+    {
+     "answer": "B",
+     "explanation": "Isolation depends on how much the crop out-crosses. Tomato is largely self-pollinated (50 m foundation / 25 m certified), while okra is often cross-pollinated (400 m / 200 m). Onion is highly cross-pollinated by insects, so 1000 m / 500 m. Pea is strictly self-pollinated and needs only about 20 m / 10 m. Seed production for the NEH is a new 2026 syllabus line.",
+     "format": "Statements",
+     "hook": "Self-pollinators sit close (tomato 50, pea 20). Bee-crops stay far (onion 1000, cole crops 1600).",
+     "id": "q1",
+     "optionNotes": {
+      "A": "Leaves out statement 2. Onion's 1000 m (foundation) is a standard value, so 2 is also correct.",
+      "B": "Correct. Tomato 50 m < okra 400 m, and onion foundation isolation is 1000 m.",
+      "C": "Statement 3 is wrong: pea is self-pollinated (cleistogamy-like, pollination before the flower opens), so only ~20 m is needed.",
+      "D": "1600 m is the value for cauliflower/cabbage foundation seed, not pea."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "IMSCS (Indian Minimum Seed Certification Standards); CSM notes – vegetable seed production. Verify values.",
+     "stem": "Consider the following statements about minimum isolation distances for FOUNDATION seed production (Indian Minimum Seed Certification Standards):\n1. Tomato needs a smaller isolation distance than okra.\n2. Onion seed crop needs an isolation of 1000 m.\n3. Garden pea, being highly cross-pollinated, needs an isolation of 1600 m.\nWhich of the statements given above is/are correct?",
+     "topic": "Vegetable seed production – isolation"
+    },
+    {
+     "answer": "A",
+     "explanation": "Most Arunachal soils are acidic because of high rainfall that leaches bases (Ca, Mg, K). In acid soils Fe and Al are soluble and fix phosphate as insoluble Fe/Al phosphates, so P is the classic deficient nutrient. Liming to raise pH (~6–6.5) and using rock phosphate (which dissolves well in acid soil) are standard corrections.",
+     "format": "Assertion–Reason",
+     "hook": "Acid soil = 'FeAl' steals P. Lime gives it back.",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Correct. R is exactly the reason for low P in acid soils.",
+      "B": "R is not a side fact; P fixation by Fe/Al is the direct cause of low P availability.",
+      "C": "R is true. P fixation by Fe and Al is textbook acid-soil chemistry (in alkaline soils P is fixed by Ca instead).",
+      "D": "A is true. Low P (along with Ca, Mg, Mo) is typical of acid soils, while Al, Fe and Mn can reach toxic levels."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true, but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false, but R is true"
+      }
+     ],
+     "section": "Soil science",
+     "source": "Nature and Properties of Soils / ICAR soil science text; CSM notes – soil acidity.",
+     "stem": "Assertion (A): In the strongly acidic hill soils of Arunachal Pradesh, phosphorus availability to horticultural crops is usually low.\nReason (R): At low soil pH, soluble iron and aluminium react with phosphate to form insoluble Fe- and Al-phosphates.",
+     "topic": "Soil acidity – P fixation"
+    },
+    {
+     "answer": "C",
+     "explanation": "HLB is caused by a phloem-limited bacterium, Candidatus Liberibacter asiaticus, spread by the Asian citrus psyllid (Diaphorina citri). Canker is a bacterial disease (Xanthomonas) spread by rain splash and leaf-miner wounds. Tristeza is a virus spread by aphids, especially the brown citrus aphid (Toxoptera citricida). Gummosis/foot rot is caused by the oomycete Phytophthora. HLB and Phytophthora are major causes of mandarin decline in NE India.",
+     "format": "Match the list",
+     "hook": "Liberi-bacter rides the Psyllid; Tristeza travels by Aphid; Phyto-ph-thora rots the Foot.",
+     "id": "q3",
+     "match": {
+      "left": [
+       "a. Citrus greening (HLB)",
+       "b. Citrus canker",
+       "c. Tristeza (quick decline)",
+       "d. Gummosis / foot rot"
+      ],
+      "right": [
+       "1. Phytophthora spp.",
+       "2. Citrus tristeza virus (Closterovirus)",
+       "3. Candidatus Liberibacter asiaticus",
+       "4. Xanthomonas citri pv. citri"
+      ]
+     },
+     "optionNotes": {
+      "A": "Swaps greening and canker. Xanthomonas causes canker lesions, not greening.",
+      "B": "Swaps tristeza and gummosis. A virus cannot cause gummosis; Phytophthora (water mould) does.",
+      "C": "Correct pairing.",
+      "D": "Gives greening to a virus. HLB is caused by a bacterium (Liberibacter), not CTV."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "a-4, b-3, c-2, d-1"
+      },
+      {
+       "k": "B",
+       "text": "a-3, b-4, c-1, d-2"
+      },
+      {
+       "k": "C",
+       "text": "a-3, b-4, c-2, d-1"
+      },
+      {
+       "k": "D",
+       "text": "a-2, b-4, c-3, d-1"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Plant pathology texts (R.S. Singh / Mehrotra); Handbook of Horticulture – citrus.",
+     "stem": "Match List-I (citrus disease) with List-II (causal organism) and select the correct answer:",
+     "topic": "Citrus diseases – causal organisms"
+    },
+    {
+     "answer": "D",
+     "explanation": "Date palm, pistachio and kiwifruit carry male and female flowers on separate plants, so orchards need male pollinizer plants (or hand pollination in date palm). Jackfruit is monoecious: male and female inflorescences (spikes) are borne on the same tree, the female ones mainly on the trunk and main branches.",
+     "format": "Odd one out",
+     "hook": "'Jack' lives alone and needs no partner tree (monoecious). Date, Pista, Kiwi need a husband.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Date palm (Phoenix dactylifera) is dioecious; artificial pollination with male strands is standard practice.",
+      "B": "Pistachio (Pistacia vera, Anacardiaceae) is dioecious; male trees such as 'Peters' are planted as pollinizers.",
+      "C": "Kiwifruit (Actinidia deliciosa) is dioecious; males such as 'Tomuri' and 'Allison' (male) are planted with female 'Hayward'.",
+      "D": "Correct. Jackfruit (Artocarpus heterophyllus, Moraceae) is monoecious and bears cauliflorous female heads."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Date palm"
+      },
+      {
+       "k": "B",
+       "text": "Pistachio"
+      },
+      {
+       "k": "C",
+       "text": "Kiwifruit"
+      },
+      {
+       "k": "D",
+       "text": "Jackfruit"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Handbook of Horticulture (ICAR); Instant Horticulture – sex forms (cross-check).",
+     "stem": "Which one of the following fruit crops is NOT dioecious?",
+     "topic": "Sex forms & dichogamy"
+    },
+    {
+     "answer": "B",
+     "explanation": "Paclobutrazol (PBZ) is a triazole growth retardant that blocks gibberellin biosynthesis. Less GA means less vegetative growth and more flower-bud initiation, so it is used to induce flowering in alternate-bearing cultivars and in off-years. It is applied to the soil around the collar region of the tree.",
+     "format": "Single answer",
+     "hook": "PBZ = 'Put Brakes on Zooming growth' → GA down, flowers up.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Opposite effect. High GA promotes vegetative growth and actually suppresses flowering in mango.",
+      "B": "Correct. PBZ is an anti-gibberellin (triazole).",
+      "C": "That describes ethephon (2-chloroethylphosphonic acid), used for pineapple flowering and fruit ripening.",
+      "D": "PBZ is not a cytokinin. Hydrogen cyanamide (Dormex) is the common bud-dormancy breaker in grape and temperate fruits."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "promotes gibberellin biosynthesis in the shoot tips"
+      },
+      {
+       "k": "B",
+       "text": "inhibits gibberellin biosynthesis, checks vegetative flush and favours flower-bud initiation"
+      },
+      {
+       "k": "C",
+       "text": "releases ethylene inside the plant tissues"
+      },
+      {
+       "k": "D",
+       "text": "acts as a cytokinin that breaks bud dormancy"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Plant physiology / PGR chapter, Handbook of Horticulture; CSM notes – PGRs.",
+     "stem": "Paclobutrazol applied as a soil drench in mango helps regular flowering mainly because it:",
+     "topic": "Paclobutrazol in mango"
+    },
+    {
+     "answer": "D",
+     "explanation": "Embryo rescue saves young embryos that would abort, as in wide crosses or seedless grape breeding. Anther (and pollen) culture gives haploids, which are doubled to make homozygous lines quickly. The apical meristem is usually free of virus, so meristem-tip culture gives virus-free stock (potato, banana, sweet potato). Protoplast fusion joins cells of two species to make somatic hybrids, as in citrus and potato. Biotech tools are a new 2026 syllabus line.",
+     "format": "Match the list",
+     "hook": "Embryo = Emergency rescue; Anther = Alone (haploid); Meristem = Medicine (virus-free); Protoplast = Partner (hybrid).",
+     "id": "q6",
+     "match": {
+      "left": [
+       "a. Embryo rescue",
+       "b. Anther culture",
+       "c. Meristem-tip culture",
+       "d. Protoplast fusion"
+      ],
+      "right": [
+       "1. Production of somatic hybrids",
+       "2. Production of haploids / doubled haploids",
+       "3. Production of virus-free planting material",
+       "4. Recovering hybrids from wide or seedless × seedless crosses"
+      ]
+     },
+     "optionNotes": {
+      "A": "Swaps anther and meristem culture. Anthers give haploids; meristem gives virus-free plants.",
+      "B": "Reverses embryo rescue and protoplast fusion. Somatic hybrids come from fusing protoplasts, not from rescuing embryos.",
+      "C": "Gives anther culture the wide-cross job. Wide crosses need embryo rescue; anthers give haploids.",
+      "D": "Correct pairing."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "a-4, b-3, c-2, d-1"
+      },
+      {
+       "k": "B",
+       "text": "a-1, b-2, c-3, d-4"
+      },
+      {
+       "k": "C",
+       "text": "a-2, b-4, c-3, d-1"
+      },
+      {
+       "k": "D",
+       "text": "a-4, b-2, c-3, d-1"
+      }
+     ],
+     "section": "Genetics & breeding",
+     "source": "B.D. Singh – Plant Breeding / Biotechnology; CSM notes – biotech tools.",
+     "stem": "Match List-I (biotechnological tool) with List-II (main use in horticultural crop improvement):",
+     "topic": "Biotech tools for crop improvement"
+    },
+    {
+     "answer": "C",
+     "explanation": "Ziro (Lower Subansiri) is famous for kiwi and for kiwi-based value addition. A. deliciosa is hexaploid with 2n = 174; 2n = 58 belongs to the diploid A. chinensis, so statement 2 is wrong. Kiwi is dioecious, so male vines like Tomuri or Allison (male) are planted among female Hayward, Allison, Monty, Abbott and Bruno vines.",
+     "format": "Statements",
+     "hook": "Kiwi = 'Six-pack' fruit: hexaploid, 174 (= 6 × 29).",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Includes statement 2, which is wrong. 58 is the diploid A. chinensis; A. deliciosa is 2n = 174.",
+      "B": "Leaves out statement 1 (true) and keeps statement 2 (false).",
+      "C": "Correct. Ziro is a kiwi hub and Tomuri is a male pollinizer for Hayward.",
+      "D": "Statement 2 is the trap. Remember the basic number x = 29, so hexaploid = 174."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "AP horticulture",
+     "source": "Handbook of Horticulture – kiwifruit; AP Dept. of Horticulture. (Do not use Instant Horticulture's kiwi value.)",
+     "stem": "Consider the following statements about kiwifruit in Arunachal Pradesh:\n1. Ziro valley, the headquarters area of Lower Subansiri district, is a leading kiwi-growing area of the state.\n2. Commercial kiwifruit (Actinidia deliciosa) is a diploid with 2n = 58.\n3. 'Tomuri' is a male cultivar used as a pollinizer for the female cultivar 'Hayward'.\nWhich of the statements given above is/are correct?",
+     "topic": "Kiwi in Ziro – ploidy & pollinizer"
+    },
+    {
+     "answer": "A",
+     "explanation": "Methyl eugenol is a male-specific parapheromone lure for B. dorsalis. Traps baited with it (plus a little insecticide) remove males and cut mating; this is the 'male annihilation technique'. Cue-lure is used for the melon fly in cucurbits.",
+     "format": "Single answer",
+     "hook": "ME = Mango's Enemy (dorsalis males). Cue = Cucurbit.",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Correct. Methyl eugenol attracts B. dorsalis males.",
+      "B": "Females are drawn to protein (food) baits, not to methyl eugenol.",
+      "C": "Melon fly males respond to cue-lure, which is used in cucumber, bitter gourd and pumpkin fields.",
+      "D": "Mango hoppers (Idioscopus, Amritodus) are controlled with sprays and orchard sanitation; they are not lured by methyl eugenol."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Males of the oriental fruit fly, Bactrocera dorsalis"
+      },
+      {
+       "k": "B",
+       "text": "Females of the oriental fruit fly, Bactrocera dorsalis"
+      },
+      {
+       "k": "C",
+       "text": "Males of the melon fly, Zeugodacus (Bactrocera) cucurbitae"
+      },
+      {
+       "k": "D",
+       "text": "Adults of the mango hopper"
+      }
+     ],
+     "section": "Entomology & nematology",
+     "source": "Entomology texts (Atwal & Dhaliwal); ICAR-IIHR fruit fly trap recommendations.",
+     "stem": "Methyl eugenol traps hung in mango and guava orchards mainly attract:",
+     "topic": "Fruit fly lures"
+    },
+    {
+     "answer": "D",
+     "explanation": "8-HQC kills microbes that block xylem vessels and lowers pH, so water uptake improves. Pulsing is a short (hours) treatment with a high sugar solution, often with a germicide or STS, given before storage or shipping. Silver in STS blocks ethylene action, so carnation and other ethylene-sensitive flowers last longer.",
+     "format": "Statements",
+     "hook": "Pulse = short sugar Punch. STS = Stops The Senescence (ethylene).",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Misses statement 3. STS is the classic anti-ethylene treatment for carnation.",
+      "B": "Statement 2 is wrong: pulsing is a short, sugar-rich 'loading' treatment, not long plain-water holding.",
+      "C": "Statement 2 is wrong (see above), and statement 1 is correct.",
+      "D": "Correct. 8-HQC is a biocide and acidifier; STS blocks ethylene action."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1 and 3 only"
+      }
+     ],
+     "section": "Floriculture",
+     "source": "Floriculture texts (Bose & Yadav; Randhawa & Mukhopadhyay); CSM notes – postharvest of flowers.",
+     "stem": "Consider the following statements about postharvest handling of cut flowers:\n1. 8-HQC (8-hydroxyquinoline citrate) acts as a germicide and lowers the pH of vase water.\n2. Pulsing means keeping cut stems in plain water for the whole vase life.\n3. Silver thiosulphate (STS) extends the vase life of ethylene-sensitive flowers such as carnation.\nWhich of the statements given above is/are correct?",
+     "topic": "Cut-flower postharvest (pulsing, STS, 8-HQC)"
+    },
+    {
+     "answer": "C",
+     "explanation": "RTS beverage needs at least 10% TSS (and 10% fruit juice). Squash needs at least 40% TSS (and 25% juice). Jelly needs at least 65% TSS, and jam about 68%. Higher sugar means better self-preservation, which is why jam and jelly need no chemical preservative once properly made.",
+     "format": "Sequence",
+     "hook": "Ready-To-Sip 10 → Squash 40 → Jelly 65 → Jam 68: the drink gets thicker as you go.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Puts jam before jelly. Jam's minimum (≈68%) is slightly higher than jelly's (65%).",
+      "B": "Squash (40%) cannot come before RTS (10%).",
+      "C": "Correct order: RTS < squash < jelly < jam.",
+      "D": "Puts jelly before squash. Jelly (65%) is far sweeter than squash (40%)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "2-3-1-4"
+      },
+      {
+       "k": "B",
+       "text": "3-2-4-1"
+      },
+      {
+       "k": "C",
+       "text": "2-3-4-1"
+      },
+      {
+       "k": "D",
+       "text": "2-4-3-1"
+      }
+     ],
+     "section": "Post-harvest & marketing",
+     "source": "FSSAI Food Product Standards (earlier FPO); Srivastava & Kumar – Fruit & Vegetable Preservation. Verify exact values.",
+     "stem": "Arrange the following fruit products in INCREASING order of the minimum total soluble solids (TSS) required under Indian food standards:\n1. Jam\n2. RTS beverage\n3. Squash\n4. Jelly\nSelect the correct answer:",
+     "topic": "Fruit products – minimum TSS"
+    }
+   ],
+   "title": "Set 002 · 07 Oct, 09:59",
+   "topics": [
+    "AP horticulture",
+    "Entomology & nematology",
+    "Floriculture",
+    "Genetics & breeding",
+    "Olericulture",
+    "Plant pathology",
+    "Plant physiology & PGR",
+    "Pomology",
+    "Post-harvest & marketing",
+    "Soil science"
+   ],
+   "sourceSetId": "set-20261007-0959",
+   "id": "set-20261007-0959"
+  },
+  {
+   "createdAt": "2026-10-07T07:29:00Z",
+   "questions": [
+    {
+     "answer": "B",
+     "explanation": "Phalsa is Grewia subinaequalis (syn. G. asiatica), karonda is Carissa carandas, bael is Aegle marmelos and jamun is Syzygium cumini. These dryland minor fruits are often asked as a set together with their families.",
+     "format": "Match the list",
+     "hook": "Grew-ing Phalsa, Carry Karonda, Eagle-Bael, Sizzling Jamun.",
+     "id": "q1",
+     "match": {
+      "left": [
+       "1. Phalsa",
+       "2. Karonda",
+       "3. Bael",
+       "4. Jamun"
+      ],
+      "right": [
+       "a. Aegle marmelos",
+       "b. Syzygium cumini",
+       "c. Grewia subinaequalis",
+       "d. Carissa carandas"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: it simply follows list order. Aegle is bael (Rutaceae), not phalsa.",
+      "B": "Correct. Families: phalsa = Tiliaceae (now Malvaceae), karonda = Apocynaceae, bael = Rutaceae, jamun = Myrtaceae.",
+      "C": "Wrong: Carissa is karonda, not phalsa. Karonda is a thorny shrub widely used as a live fence.",
+      "D": "Wrong: Aegle is not karonda. Bael is the citrus-family fruit known for its hard woody shell."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1-a, 2-b, 3-c, 4-d"
+      },
+      {
+       "k": "B",
+       "text": "1-c, 2-d, 3-a, 4-b"
+      },
+      {
+       "k": "C",
+       "text": "1-d, 2-c, 3-b, 4-a"
+      },
+      {
+       "k": "D",
+       "text": "1-c, 2-a, 3-d, 4-b"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Handbook of Horticulture (ICAR), Minor fruits chapter",
+     "stem": "Match the minor fruit (List I) with its botanical name (List II) and choose the correct code:",
+     "topic": "Botanical names"
+    },
+    {
+     "answer": "A",
+     "explanation": "Ethylene, applied as ethephon or calcium carbide (which gives off acetylene), brings on uniform flowering in pineapple. In cucurbits, ethephon increases female flowers. 1-MCP blocks the ethylene receptor, but AVG blocks ethylene production (ACC synthase), not the receptor.",
+     "format": "Statements",
+     "hook": "Ethrel = Eve: more FEMALE flowers. 1-MCP shuts the Door (receptor); AVG shuts the Factory (biosynthesis).",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Correct: statements 1 and 3 are true, and 2 and 4 are false.",
+      "B": "Wrong: both are false. GA is the hormone that favours male flowers in cucurbits; AVG inhibits ACC synthase.",
+      "C": "Wrong: it includes statement 2. Ethephon makes cucurbits more female, which helps in hybrid seed production.",
+      "D": "Wrong: it includes statement 4. Silver (STS) and 1-MCP act on the receptor; AVG and AOA act on biosynthesis."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "B",
+       "text": "2 and 4 only"
+      },
+      {
+       "k": "C",
+       "text": "1, 2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 3 and 4 only"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Plant physiology text (Taiz & Zeiger); CSM notes on PGRs",
+     "stem": "Consider the following statements about ethylene in horticulture:\n1. Flowering in pineapple can be induced with ethephon or calcium carbide.\n2. Ethephon sprays in cucurbits increase the number of male flowers.\n3. 1-MCP delays ripening by blocking ethylene receptors.\n4. AVG (aminoethoxyvinylglycine) acts by blocking ethylene receptors.\nWhich of the statements given above are correct?",
+     "topic": "Ethylene – uses & inhibitors"
+    },
+    {
+     "answer": "A",
+     "explanation": "pH measures only active acidity in the soil solution. Most acidity sits in reserve on exchange sites (Al3+, H+), so heavy, high-CEC or organic soils resist pH change and need more lime. That is why buffer methods such as SMP are used to work out lime requirement. Acid soils are widespread in Arunachal, so this is a likely question.",
+     "format": "Assertion–Reason",
+     "hook": "pH is the tip; reserve acidity is the iceberg. More clay or OM means a bigger iceberg and more lime.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Correct: buffer capacity (reserve acidity) explains why lime need differs at the same pH.",
+      "B": "Wrong: R is the actual reason for A, not an unrelated fact.",
+      "C": "Wrong: R is true. Clay and humus raise CEC and therefore buffering.",
+      "D": "Wrong: A is true. Lime requirement is set by pH together with buffer capacity, not by pH alone."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true, but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false, but R is true"
+      }
+     ],
+     "section": "Soil science",
+     "source": "Nature & Properties of Soils (Brady); Indian Society of Soil Science fundamentals",
+     "stem": "Assertion (A): Two soils with the same pH can need very different amounts of lime.\nReason (R): Soils rich in clay and organic matter have a high buffer capacity because they hold a large reserve (exchangeable) acidity.",
+     "topic": "Soil acidity – lime requirement"
+    },
+    {
+     "answer": "D",
+     "explanation": "HLB (Candidatus Liberibacter asiaticus) is spread by the Asian citrus psyllid, Diaphorina citri. Tristeza virus is spread by the brown citrus aphid, Toxoptera citricida. Bunchy top is spread by the banana aphid, Pentalonia nigronervosa. Papaya ringspot virus is spread by aphids (Myzus persicae, Aphis gossypii) in a non-persistent way, not by whitefly.",
+     "format": "Statements",
+     "hook": "Psyllid makes it Pale-green (HLB); aphids carry the rest. PRSV is not a whitefly virus.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Incomplete: pair 3 is also correct. BBTV is a nanovirus carried by the banana aphid.",
+      "B": "Wrong: it leaves out the correct pair 1 and includes the wrong pair 4.",
+      "C": "Wrong: pair 4 is wrong. Whitefly (Bemisia tabaci) spreads begomoviruses such as tomato leaf curl.",
+      "D": "Correct: pairs 1–3 are right. HLB, CTV and BBTV are all managed with clean planting material and vector control."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "2, 3 and 4 only"
+      },
+      {
+       "k": "C",
+       "text": "1, 2, 3 and 4"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3 only"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Plant Pathology (R.S. Singh); CSM notes on fruit diseases",
+     "stem": "Consider the following disease–vector pairs:\n1. Citrus greening (HLB) – Diaphorina citri\n2. Citrus tristeza – Toxoptera citricida\n3. Banana bunchy top – Pentalonia nigronervosa\n4. Papaya ringspot – Bemisia tabaci\nWhich of the pairs given above are correctly matched?",
+     "topic": "Virus/bacterial disease vectors"
+    },
+    {
+     "answer": "C",
+     "explanation": "Malling 9 (M 9) is the standard dwarfing apple rootstock behind high-density plantings, and it needs staking or a trellis. MM 111 and Merton 793 give vigorous to semi-vigorous trees. Seedling rootstocks give large, variable trees.",
+     "format": "Single answer",
+     "hook": "M9 = Mini-9: smallest tree, needs a stick.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Wrong: MM 111 is a vigorous to semi-vigorous Malling-Merton stock, resistant to woolly aphid and fairly drought tolerant.",
+      "B": "Wrong: Merton 793 is a vigorous stock, also bred for woolly aphid resistance.",
+      "C": "Correct: M 9 is dwarfing (about 25–35% of seedling size), bears early and suits high density, but has weak anchorage.",
+      "D": "Wrong: crab apple seedlings give vigorous, non-uniform trees. They are the traditional rootstock in the Indian hills."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "MM 111"
+      },
+      {
+       "k": "B",
+       "text": "Merton 793"
+      },
+      {
+       "k": "C",
+       "text": "M 9"
+      },
+      {
+       "k": "D",
+       "text": "Crab apple (Malus baccata) seedling"
+      }
+     ],
+     "section": "Propagation & orchard mgmt",
+     "source": "Handbook of Horticulture – Apple; verify % size figures with CSM notes",
+     "stem": "Which of the following is a dwarfing clonal rootstock widely used for high-density apple planting?",
+     "topic": "Apple rootstocks"
+    },
+    {
+     "answer": "B",
+     "explanation": "Coptis teeta is a bitter rhizome herb of the eastern Himalaya, traditionally collected by the Mishmi people of the Dibang and Lohit valleys. Its main active principle is berberine. It belongs to Ranunculaceae, not Apocynaceae. Over-harvesting makes it a conservation concern, so it is a likely AP MAP question.",
+     "format": "Statements",
+     "hook": "Mishmi Teeta is Bitter-Berberine, from the Buttercup family (Ranunculaceae).",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Incomplete: statement 2 is also true. Berberine is the yellow, bitter isoquinoline alkaloid.",
+      "B": "Correct: 1 and 2 are true. The family is Ranunculaceae (the buttercup family, which also includes Aconitum).",
+      "C": "Wrong: statement 3 is false. Apocynaceae includes Rauvolfia (reserpine) and Catharanthus (vincristine).",
+      "D": "Wrong: the family in statement 3 is wrong."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Medicinal & aromatic plants",
+     "source": "Handbook of Horticulture – MAPs; AP forest/MAP literature (verify)",
+     "stem": "Consider the following statements about 'Mishmi teeta':\n1. It is Coptis teeta, associated with the Mishmi hills of Arunachal Pradesh.\n2. Its rhizome is valued mainly for the alkaloid berberine.\n3. It belongs to the family Apocynaceae.\nWhich of the statements given above is/are correct?",
+     "topic": "Mishmi teeta (Coptis teeta)"
+    },
+    {
+     "answer": "D",
+     "explanation": "In the classic five-stage model (Rogers, 1962), a farmer first becomes aware of an idea, develops interest, evaluates it mentally, tries it on a small scale, and then adopts it. Mass media work best at the awareness stage, and demonstrations and personal contact work best at the evaluation and trial stages.",
+     "format": "Sequence",
+     "hook": "A-I-E-T-A: 'All Indian Extension Teams Adopt'.",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Wrong: evaluation comes after interest, not before it.",
+      "B": "Wrong: awareness always comes first.",
+      "C": "Wrong: the farmer evaluates mentally before trying it on a small scale.",
+      "D": "Correct: Awareness, Interest, Evaluation, Trial, Adoption. Rogers later revised this to Knowledge, Persuasion, Decision, Implementation, Confirmation."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "2-3-4-1-5"
+      },
+      {
+       "k": "B",
+       "text": "4-2-3-1-5"
+      },
+      {
+       "k": "C",
+       "text": "2-4-1-3-5"
+      },
+      {
+       "k": "D",
+       "text": "2-4-3-1-5"
+      }
+     ],
+     "section": "Extension education",
+     "source": "Dahama & Bhatnagar, Education and Communication for Development",
+     "stem": "Arrange the stages of the adoption process (Rogers) in the correct order:\n1. Trial\n2. Awareness\n3. Evaluation\n4. Interest\n5. Adoption",
+     "topic": "Adoption process stages"
+    },
+    {
+     "answer": "C",
+     "explanation": "In aeroponics, roots hang freely and are misted with nutrient solution, which gives them the most oxygen and uses the least water. It is one of the three main vertical-farming methods, with hydroponics and aquaponics. Vertical farming is a new 2026 syllabus line.",
+     "format": "Single answer",
+     "hook": "Aero = Air: roots live in AIR and drink MIST.",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Wrong: in NFT a thin film of solution flows continuously along sloping channels past the roots. It is common for lettuce and leafy greens.",
+      "B": "Wrong: in DWC the roots sit permanently in aerated nutrient solution.",
+      "C": "Correct: aeroponics uses a fine mist in an enclosed root chamber. NASA has used it in research.",
+      "D": "Wrong: ebb and flow (flood and drain) floods the growing bed for a while and then drains it."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Nutrient Film Technique (NFT)"
+      },
+      {
+       "k": "B",
+       "text": "Deep Water Culture (DWC)"
+      },
+      {
+       "k": "C",
+       "text": "Aeroponics"
+      },
+      {
+       "k": "D",
+       "text": "Ebb and flow"
+      }
+     ],
+     "section": "Agri engineering",
+     "source": "Protected cultivation / hydroponics chapter, CSM notes",
+     "stem": "In which soilless growing system, used in vertical farms, do plant roots hang in the air inside a chamber and get misted with nutrient solution at intervals?",
+     "topic": "Vertical farming – soilless systems"
+    },
+    {
+     "answer": "B",
+     "explanation": "Dambuk, in Lower Dibang Valley district, is one of Arunachal's best-known mandarin orange belts and hosts the Orange Festival of Adventure and Music. Arunachal Orange carries a GI tag, so pairing districts with their crops is a high-yield prelims area.",
+     "format": "Single answer",
+     "hook": "Dambuk is in the Dibang: oranges by the Dibang river.",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Wrong: West Siang's headquarters is Aalo.",
+      "B": "Correct: Dambuk is in Lower Dibang Valley (HQ Roing).",
+      "C": "Wrong: Changlang is home to Namdapha National Park.",
+      "D": "Wrong: Lower Subansiri has Ziro (Apatani plateau), known for kiwi and paddy-cum-fish farming."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "West Siang"
+      },
+      {
+       "k": "B",
+       "text": "Lower Dibang Valley"
+      },
+      {
+       "k": "C",
+       "text": "Changlang"
+      },
+      {
+       "k": "D",
+       "text": "Lower Subansiri"
+      }
+     ],
+     "section": "AP horticulture",
+     "source": "AP Horticulture Dept / district profiles (verify district names in current AP map)",
+     "stem": "Dambuk, famous for its orange orchards and the annual Orange Festival, is in which district of Arunachal Pradesh?",
+     "topic": "Dambuk orange belt"
+    },
+    {
+     "answer": "C",
+     "explanation": "Pusa Beta Kesari 1 (IARI) is India's first β-carotene-rich orange cauliflower. Bhu Sona (β-carotene) and Bhu Krishna (anthocyanin) are biofortified sweet potatoes from ICAR-CTCRI. Pusa Snowball K-1 is an ordinary late (snowball) cauliflower known for black-rot resistance, not for extra nutrients. This links to the new syllabus line on nutri-sensitive horticulture.",
+     "format": "Odd one out",
+     "hook": "Kesari = saffron colour = β-carotene. Sona = gold, Krishna = dark purple. Snowball stays plain white.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Biofortified: orange curd rich in β-carotene, released by IARI.",
+      "B": "Biofortified: orange-fleshed sweet potato with high β-carotene (CTCRI).",
+      "C": "Not biofortified: this is the answer. It is a late snowball cauliflower bred for black-rot resistance.",
+      "D": "Biofortified: purple-fleshed sweet potato rich in anthocyanin (CTCRI)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Pusa Beta Kesari 1 (cauliflower)"
+      },
+      {
+       "k": "B",
+       "text": "Bhu Sona (sweet potato)"
+      },
+      {
+       "k": "C",
+       "text": "Pusa Snowball K-1 (cauliflower)"
+      },
+      {
+       "k": "D",
+       "text": "Bhu Krishna (sweet potato)"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "ICAR biofortified varieties list (verify Snowball K-1 trait in CSM notes)",
+     "stem": "Which ONE of the following is NOT a nutrient-enriched (biofortified) vegetable variety?",
+     "topic": "Biofortified vegetables (nutri-sensitive)"
+    }
+   ],
+   "title": "Set 003 · 07 Oct, 12:59",
+   "topics": [
+    "AP horticulture",
+    "Agri engineering",
+    "Extension education",
+    "Medicinal & aromatic plants",
+    "Olericulture",
+    "Plant pathology",
+    "Plant physiology & PGR",
+    "Pomology",
+    "Propagation & orchard mgmt",
+    "Soil science"
+   ],
+   "sourceSetId": "set-20261007-1259",
+   "id": "set-20261007-1259"
+  },
+  {
+   "createdAt": "2026-10-07T11:30:06Z",
+   "questions": [
+    {
+     "answer": "B",
+     "explanation": "Cue-lure is a male attractant for the melon fly, Zeugodacus (syn. Bactrocera) cucurbitae, the main fruit fly of cucurbits. Methyl eugenol attracts males of the oriental fruit fly B. dorsalis and the peach fruit fly B. zonata. In Arunachal and the NE, melon fly is a key pest of cucumber, chow-chow and pumpkin, so cue-lure traps form part of area-wide IPM.",
+     "format": "Single answer",
+     "hook": "CUE for CUcurbits; METHYL for MANGO (dorsalis); TRIMED for MEDfly.",
+     "id": "q1",
+     "optionNotes": {
+      "A": "Wrong: B. dorsalis (oriental fruit fly, pest of mango and guava) males are lured by methyl eugenol.",
+      "B": "Correct: the melon fly responds to cue-lure (and its parent compound raspberry ketone).",
+      "C": "Wrong: B. zonata (peach fruit fly) is also a methyl eugenol responder.",
+      "D": "Wrong: Ceratitis capitata (Mediterranean fruit fly, not established in India) is lured by trimedlure."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Bactrocera dorsalis"
+      },
+      {
+       "k": "B",
+       "text": "Zeugodacus (Bactrocera) cucurbitae"
+      },
+      {
+       "k": "C",
+       "text": "Bactrocera zonata"
+      },
+      {
+       "k": "D",
+       "text": "Ceratitis capitata"
+      }
+     ],
+     "section": "Entomology & nematology",
+     "source": "Insect pests of horticultural crops (Atwal & Dhaliwal); CSM entomology notes",
+     "stem": "'Cue-lure' used in para-pheromone traps in cucurbit fields mainly attracts the males of",
+     "topic": "Fruit fly lures"
+    },
+    {
+     "answer": "C",
+     "explanation": "Rogers' innovation-decision process runs Knowledge → Persuasion → Decision → Implementation → Confirmation. It is the later version of his older five-stage adoption process: Awareness → Interest → Evaluation → Trial → Adoption. Knowledge matches Awareness, Persuasion matches Interest/Evaluation, and Confirmation is where the farmer seeks reinforcement and may discontinue.",
+     "format": "Sequence",
+     "hook": "'Kind People Decide, Implement, Confirm' (K-P-D-I-C); old model = AIETA.",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Wrong: Decision cannot come before Persuasion; a farmer first forms an attitude, then decides.",
+      "B": "Wrong: Persuasion cannot come before Knowledge; one must know about an innovation first.",
+      "C": "Correct: K → P → D → I → C.",
+      "D": "Wrong: Implementation (putting the innovation to use) comes only after the Decision to adopt."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "2 - 1 - 4 - 5 - 3"
+      },
+      {
+       "k": "B",
+       "text": "4 - 2 - 1 - 5 - 3"
+      },
+      {
+       "k": "C",
+       "text": "2 - 4 - 1 - 5 - 3"
+      },
+      {
+       "k": "D",
+       "text": "2 - 4 - 5 - 1 - 3"
+      }
+     ],
+     "section": "Extension education",
+     "source": "Education and Communication for Development (O.P. Dahama & O.P. Bhatnagar); Rogers, Diffusion of Innovations",
+     "stem": "Arrange the stages of the innovation-decision process given by E.M. Rogers in the correct order:\n1. Decision\n2. Knowledge\n3. Confirmation\n4. Persuasion\n5. Implementation\nSelect the correct answer using the code given below:",
+     "topic": "Adoption process stages"
+    },
+    {
+     "answer": "A",
+     "explanation": "HLB is caused by the phloem-limited bacterium Candidatus Liberibacter asiaticus and is spread by the Asian citrus psyllid, Diaphorina citri. It is graft-transmissible, so infected budwood spreads it to new orchards. Toxoptera citricida carries Citrus tristeza virus, not HLB. Disease-free nursery stock is key to protecting AP mandarin belts such as Dambuk.",
+     "format": "Statements",
+     "hook": "HLB = Psyllid + Phloem + blotchy mottle (asymmetric); Tristeza = aphid.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Correct: statements 1, 2 and 4 are right; only the vector in 3 is wrong.",
+      "B": "Wrong: statement 3 is false and statements 2 and 4 are true.",
+      "C": "Wrong: it includes the false statement 3 and leaves out the true statement 1.",
+      "D": "Wrong: statement 3 describes the CTV vector, not the HLB vector."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1, 2 and 4 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "2, 3 and 4 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2, 3 and 4"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Plant Pathology (R.S. Singh); CSM notes on citrus diseases",
+     "stem": "With reference to Citrus greening (Huanglongbing), consider the following statements:\n1. It is caused by a phloem-limited bacterium, 'Candidatus Liberibacter asiaticus'.\n2. Asymmetrical 'blotchy mottle' of leaves and lopsided fruits with aborted seeds are typical symptoms.\n3. It is transmitted mainly by the brown citrus aphid, Toxoptera citricida.\n4. It can spread through infected budwood used in grafting.\nWhich of the statements given above are correct?",
+     "topic": "Citrus greening (HLB)"
+    },
+    {
+     "answer": "D",
+     "explanation": "Bhu Krishna is a purple-fleshed sweet potato from ICAR-CTCRI, Thiruvananthapuram, rich in anthocyanin (an antioxidant pigment). Its sister variety Bhu Sona is orange-fleshed and rich in β-carotene. Varieties like these are the core of 'nutri-sensitive horticulture', a new line in the 2026 syllabus.",
+     "format": "Single answer",
+     "hook": "Krishna is dark/purple → Anthocyanin; Sona is golden → β-carotene.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Wrong: β-carotene is the selling point of orange-fleshed Bhu Sona (and of cauliflower Pusa Beta Kesari 1).",
+      "B": "Wrong: lycopene is the red pigment of tomato and watermelon.",
+      "C": "Wrong: capsanthin is the red carotenoid of chilli and paprika.",
+      "D": "Correct: anthocyanin gives the purple flesh."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "β-carotene"
+      },
+      {
+       "k": "B",
+       "text": "Lycopene"
+      },
+      {
+       "k": "C",
+       "text": "Capsanthin"
+      },
+      {
+       "k": "D",
+       "text": "Anthocyanin"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "ICAR-CTCRI variety list; ICAR biofortified varieties booklet (verify)",
+     "stem": "The purple-fleshed sweet potato variety 'Bhu Krishna', released by ICAR-CTCRI as a nutri-rich variety, is rich in",
+     "topic": "Biofortified vegetables (nutri-sensitive)"
+    },
+    {
+     "answer": "A",
+     "explanation": "Alnus nepalensis is a non-leguminous, actinorhizal tree whose root nodules hold Frankia, which fixes nitrogen. That is why it restores soil fertility in shifting-cultivation (jhum) fallows and is the preferred shade tree for large cardamom. Its fast growth and leaf litter also improve soil organic matter on acidic hill slopes.",
+     "format": "Assertion–Reason",
+     "hook": "ALder = ALso fixes N (via Frankia), even though it is not a legume.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Correct: nitrogen fixation is the very reason farmers keep alder.",
+      "B": "Wrong: R does explain A; its N-fixing ability is the main reason it is retained.",
+      "C": "Wrong: R is true; alder is the classic non-legume nitrogen fixer (like Casuarina).",
+      "D": "Wrong: A is true; alder-based systems are well known in the NE hills (e.g., the Khonoma alder system in Nagaland)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false but R is true"
+      }
+     ],
+     "section": "Agroforestry & agromet",
+     "source": "Agroforestry (Dwivedi / ICAR NEH notes); verify local AP examples in CSM notes",
+     "stem": "Assertion (A): Nepal alder (Alnus nepalensis) is widely retained in jhum fallows and large cardamom plantations of the North-Eastern hills, including Arunachal Pradesh.\nReason (R): Alnus nepalensis fixes atmospheric nitrogen through a symbiotic association with the actinomycete Frankia.\nSelect the correct answer using the code given below:",
+     "topic": "Alder in jhum/agroforestry"
+    },
+    {
+     "answer": "C",
+     "explanation": "Namdapha National Park lies in Changlang district along the Noa-Dihing river, close to the Myanmar border. It is noted for having four big cats: tiger, leopard, clouded leopard and snow leopard. It also has the Namdapha flying squirrel and hoolock gibbons.",
+     "format": "Single answer",
+     "hook": "NAMdapha in CHANGlang: 'Change your NAME at Namdapha'.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Wrong: Lower Dibang Valley has the Mehao Wildlife Sanctuary (verify).",
+      "B": "Wrong: Papum Pare has the Itanagar Wildlife Sanctuary near the capital.",
+      "C": "Correct: Changlang district, Noa-Dihing valley.",
+      "D": "Wrong: Tirap borders Changlang but does not contain Namdapha."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Lower Dibang Valley"
+      },
+      {
+       "k": "B",
+       "text": "Papum Pare"
+      },
+      {
+       "k": "C",
+       "text": "Changlang"
+      },
+      {
+       "k": "D",
+       "text": "Tirap"
+      }
+     ],
+     "section": "General studies (AP)",
+     "source": "Arunachal Pradesh Forest Dept; AP GK books (verify neighbouring sanctuaries)",
+     "stem": "Namdapha National Park and Tiger Reserve, one of the largest protected areas of the Eastern Himalaya, is located in which district of Arunachal Pradesh?",
+     "topic": "Protected areas of AP"
+    },
+    {
+     "answer": "D",
+     "explanation": "Black pepper (Piper nigrum) is Piperaceae; cinnamon (Cinnamomum verum) is Lauraceae; clove (Syzygium aromaticum) is Myrtaceae, the same family as jamun and guava; nutmeg and mace (Myristica fragrans) are Myristicaceae. For Arunachal, also remember that large cardamom (Amomum subulatum) and ginger belong to Zingiberaceae.",
+     "format": "Match the list",
+     "hook": "Pepper-Piper, Cinnamon-Laurel (bay leaf too), Clove-Myrtle (with guava/jamun), Nutmeg-Myristica.",
+     "id": "q7",
+     "match": {
+      "left": [
+       "a. Black pepper",
+       "b. Cinnamon",
+       "c. Clove",
+       "d. Nutmeg"
+      ],
+      "right": [
+       "1. Myrtaceae",
+       "2. Myristicaceae",
+       "3. Piperaceae",
+       "4. Lauraceae"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: cinnamon is not Myrtaceae and clove is not Lauraceae; they are swapped.",
+      "B": "Wrong: pepper is not Lauraceae; avocado, cinnamon and tejpat are the Lauraceae members.",
+      "C": "Wrong: clove and nutmeg are swapped; nutmeg gives both nutmeg (seed) and mace (aril).",
+      "D": "Correct: a-3, b-4, c-1, d-2."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "a-3, b-1, c-4, d-2"
+      },
+      {
+       "k": "B",
+       "text": "a-4, b-3, c-1, d-2"
+      },
+      {
+       "k": "C",
+       "text": "a-3, b-4, c-2, d-1"
+      },
+      {
+       "k": "D",
+       "text": "a-3, b-4, c-1, d-2"
+      }
+     ],
+     "section": "Spices & plantation",
+     "source": "Spices (J.S. Pruthi); Instant Horticulture spice chapter",
+     "stem": "Match List-I (Spice) with List-II (Family) and select the correct answer using the code given below the lists:",
+     "topic": "Families of spices"
+    },
+    {
+     "answer": "B",
+     "explanation": "Grand Naine (a Cavendish type) is a triploid AAA, which is why it is seedless and sterile. Triploid seedless watermelon comes from a 4x female × 2x male cross. Potato is an autotetraploid (2n=4x=48). Sweet potato is a hexaploid (2n=6x=90), not a diploid.",
+     "format": "Statements",
+     "hook": "Banana 3, Melon-seedless 4×2=3, Potato 4 (48), Sweet potato 6 (90).",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Wrong: statement 3 is also correct.",
+      "B": "Correct: only statement 4 is wrong.",
+      "C": "Wrong: statement 4 is false and statement 1 is true.",
+      "D": "Wrong: sweet potato is hexaploid, 2n=90."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "1, 2 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "2, 3 and 4 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2, 3 and 4"
+      }
+     ],
+     "section": "Genetics & breeding",
+     "source": "Plant Breeding (B.D. Singh); verify against Handbook of Horticulture",
+     "stem": "Consider the following statements regarding ploidy in horticultural crops:\n1. Commercial dessert bananas such as Grand Naine are triploids (AAA).\n2. Seedless watermelon is produced by crossing a tetraploid female with a diploid male.\n3. Cultivated potato (Solanum tuberosum) is an autotetraploid with 2n = 4x = 48.\n4. Sweet potato (Ipomoea batatas) is a diploid crop.\nWhich of the statements given above are correct?",
+     "topic": "Ploidy in horticultural crops"
+    },
+    {
+     "answer": "C",
+     "explanation": "Whiptail is caused by molybdenum deficiency and is most common in acidic soils, where Mo availability is low. That makes it relevant to Arunachal's acid soils. It is corrected by liming and by applying sodium or ammonium molybdate. Mo is needed for nitrate reductase, so a deficient plant cannot use nitrate nitrogen.",
+     "format": "Single answer",
+     "hook": "WHIP-tail → MOLY-whip; Mo goes DOWN as pH goes DOWN (acid soils).",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Wrong: boron deficiency causes browning (brown rot) and hollow stem in cauliflower.",
+      "B": "Wrong: calcium deficiency causes tipburn in cabbage and blossom-end rot in tomato.",
+      "C": "Correct: Mo deficiency; it is the only micronutrient whose availability rises with pH.",
+      "D": "Wrong: zinc deficiency causes little leaf/rosette in fruit trees and khaira in rice."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Boron"
+      },
+      {
+       "k": "B",
+       "text": "Calcium"
+      },
+      {
+       "k": "C",
+       "text": "Molybdenum"
+      },
+      {
+       "k": "D",
+       "text": "Zinc"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Soil Fertility & Fertilizers (Tisdale); Vegetable crops (T.K. Bose)",
+     "stem": "'Whiptail' of cauliflower, in which leaf blades fail to develop and only the midrib remains, is caused by deficiency of",
+     "topic": "Nutrient deficiency disorders"
+    },
+    {
+     "answer": "A",
+     "explanation": "The chamber is a double brick wall with the gap filled with wet sand, plus a cover. As water evaporates from the wet walls it lowers the temperature inside and keeps humidity high. It needs no electricity, so it suits remote villages, such as those in Arunachal, that lack cold-chain access.",
+     "format": "Single answer",
+     "hook": "Zero Energy = Zero electricity → wet bricks + sand = Evaporative cooling.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Correct: evaporative cooling gives lower temperature and high RH.",
+      "B": "Wrong: CA storage changes O2/CO2 levels in a sealed cold room and needs power and gas control.",
+      "C": "Wrong: hypobaric storage keeps produce under partial vacuum and is costly.",
+      "D": "Wrong: irradiation (gamma rays) is used to stop sprouting in onion and potato and to disinfest produce."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Evaporative cooling"
+      },
+      {
+       "k": "B",
+       "text": "Controlled atmosphere storage"
+      },
+      {
+       "k": "C",
+       "text": "Hypobaric (low pressure) storage"
+      },
+      {
+       "k": "D",
+       "text": "Irradiation"
+      }
+     ],
+     "section": "Post-harvest & marketing",
+     "source": "Post-harvest Technology of Fruits & Vegetables (Verma & Joshi); IARI publications",
+     "stem": "The 'Pusa Zero Energy Cool Chamber', developed by IARI for on-farm short-term storage of fruits and vegetables, works mainly on the principle of",
+     "topic": "Low-cost storage (ZECC)"
+    }
+   ],
+   "title": "Set 004 · 07 Oct, 17:00",
+   "topics": [
+    "Agroforestry & agromet",
+    "Entomology & nematology",
+    "Extension education",
+    "General studies (AP)",
+    "Genetics & breeding",
+    "Olericulture",
+    "Plant pathology",
+    "Plant physiology & PGR",
+    "Post-harvest & marketing",
+    "Spices & plantation"
+   ],
+   "sourceSetId": "set-20261007-1700",
+   "id": "set-20261007-1700"
+  },
+  {
+   "createdAt": "2026-10-07T16:30:00Z",
+   "questions": [
+    {
+     "answer": "D",
+     "explanation": "All three are standard pathogen–disease pairs. Canker is bacterial (Xanthomonas), tristeza is a closterovirus spread by aphids (Toxoptera citricida is the most efficient vector) and by budwood, and gummosis/foot rot is caused by the oomycete Phytophthora. In Arunachal and the NE, decline of Khasi mandarin is treated as a complex of HLB, tristeza, Phytophthora and poor management.",
+     "format": "Statements",
+     "hook": "Canker = 'X' marks the spot (Xanthomonas); Tristeza = 'T' for Toxoptera; Gummosis = 'Phyto' rots the foot.",
+     "id": "q1",
+     "optionNotes": {
+      "A": "Incomplete: statement 1 is right, but 2 and 3 are also right.",
+      "B": "Incomplete: misses statement 3; Phytophthora (P. nicotianae / P. citrophthora) causes gummosis and foot rot.",
+      "C": "Wrong: leaves out statement 1; canker is a bacterial disease (Xanthomonas), not fungal.",
+      "D": "Correct: all three pairs are textbook facts. Also remember Greening/HLB = Candidatus Liberibacter asiaticus, vector psyllid Diaphorina citri."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 only"
+      },
+      {
+       "k": "B",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "C",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Plant pathology text (R.S. Singh / Rangaswami); CSM notes – citrus diseases",
+     "stem": "Consider the following statements regarding diseases of citrus:\n1. Citrus canker is caused by the bacterium Xanthomonas citri pv. citri.\n2. Citrus tristeza virus is transmitted most efficiently by the brown citrus aphid, Toxoptera citricida.\n3. Foot rot or gummosis of citrus is caused by Phytophthora spp.\nWhich of the statements given above is/are correct?",
+     "topic": "Citrus diseases – causal organisms"
+    },
+    {
+     "answer": "C",
+     "explanation": "A is true: BBTV spreads through infected suckers, so clean virus-indexed tissue-culture planting material is a key control. R is false: BBTV is transmitted by the banana aphid Pentalonia nigronervosa, so roguing infected clumps and aphid control are also needed.",
+     "format": "Assertion–Reason",
+     "hook": "Bunchy top = 'Penta-bunchy': Pentalonia aphid + infected suckers.",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Wrong: R is false, so it cannot explain A.",
+      "B": "Wrong: R is not true; BBTV has an aphid vector.",
+      "C": "Correct: A true (clean planting material), R false (vector = Pentalonia nigronervosa).",
+      "D": "Wrong: A is a standard recommendation, so A is true."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false but R is true"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Banana production guides (NRC Banana, Trichy); plant pathology text",
+     "stem": "Assertion (A): Planting tissue-culture-raised, virus-indexed plantlets is recommended for managing banana bunchy top disease.\nReason (R): Banana bunchy top virus is not transmitted by any insect vector.",
+     "topic": "Virus/bacterial disease vectors"
+    },
+    {
+     "answer": "B",
+     "explanation": "Methyl eugenol attracts males of the oriental fruit fly (mango, guava), while cue-lure attracts males of the melon fly in cucurbits. Helilure and Lucilure are synthetic sex pheromones for Helicoverpa and the brinjal shoot and fruit borer. All four lures mainly trap males, which is the basis of the male annihilation technique.",
+     "format": "Match the list",
+     "hook": "'Mango Eats ME' (Methyl Eugenol → mango fly); 'Cucumber Cue' (Cue-lure → melon fly); Heli→Heli, Luci→Leucinodes.",
+     "id": "q3",
+     "match": {
+      "left": [
+       "1. Bactrocera dorsalis (oriental fruit fly)",
+       "2. Zeugodacus cucurbitae (melon fly)",
+       "3. Helicoverpa armigera (fruit borer)",
+       "4. Leucinodes orbonalis (brinjal shoot and fruit borer)"
+      ],
+      "right": [
+       "a. Cue-lure",
+       "b. Methyl eugenol",
+       "c. Lucilure (sex pheromone)",
+       "d. Helilure (sex pheromone)"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: swaps the two fruit fly lures; methyl eugenol is for B. dorsalis, not melon fly.",
+      "B": "Correct: 1-b, 2-a, 3-d, 4-c.",
+      "C": "Wrong: fruit flies are right, but the pheromones are swapped; Helilure is named after Helicoverpa.",
+      "D": "Wrong: fruit fly lures swapped; pheromones correct."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1-a, 2-b, 3-c, 4-d"
+      },
+      {
+       "k": "B",
+       "text": "1-b, 2-a, 3-d, 4-c"
+      },
+      {
+       "k": "C",
+       "text": "1-b, 2-a, 3-c, 4-d"
+      },
+      {
+       "k": "D",
+       "text": "1-a, 2-b, 3-d, 4-c"
+      }
+     ],
+     "section": "Entomology & nematology",
+     "source": "IPM packages (NCIPM / ICAR-IIHR fruit fly management)",
+     "stem": "Match List-I (Pest) with List-II (Lure used in traps) and select the correct answer using the code given below:",
+     "topic": "Fruit fly lures"
+    },
+    {
+     "answer": "C",
+     "explanation": "The five stages are Awareness → Interest → Evaluation → Trial → Adoption. Trial is the small-scale use on the farmer's own field; it follows mental evaluation and comes before full-scale adoption. Field demonstrations and front-line demonstrations help farmers move into the trial stage.",
+     "format": "Single answer",
+     "hook": "AIETA: 'All Indian Extension Teams Act' – T = Test it small.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Wrong: Interest is when the farmer seeks more information about the idea.",
+      "B": "Wrong: Evaluation is a 'mental trial' – weighing pros and cons before trying.",
+      "C": "Correct: Trial = small-scale use to test it under his own conditions.",
+      "D": "Wrong: Adoption is the decision for full-scale, continued use."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Interest"
+      },
+      {
+       "k": "B",
+       "text": "Evaluation"
+      },
+      {
+       "k": "C",
+       "text": "Trial"
+      },
+      {
+       "k": "D",
+       "text": "Adoption"
+      }
+     ],
+     "section": "Extension education",
+     "source": "Dahama & Bhatnagar, Education and Communication for Development",
+     "stem": "In the classical five-stage adoption process, the stage at which a farmer applies a new practice on a small scale to see how it works on his own farm is:",
+     "topic": "Adoption process stages"
+    },
+    {
+     "answer": "B",
+     "explanation": "The Planning Commission (1988–89) divided India into 15 agro-climatic regions. Region II, the Eastern Himalayan Region, covers Arunachal Pradesh, the other NE states, Sikkim and the Darjeeling hills. It is marked by high rainfall, steep slopes, acid soils and shifting cultivation, which suits horticulture-based land use.",
+     "format": "Single answer",
+     "hook": "East Himalaya = Region 'II' – Two for the NE Two-some: hills + rain.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Wrong: Region I – J&K, Himachal, Uttarakhand (apple, temperate fruits).",
+      "B": "Correct: Region II – Arunachal and the NE states, Sikkim, Darjeeling hills.",
+      "C": "Wrong: Region III – mainly West Bengal plains.",
+      "D": "Wrong: Region VII – Chhattisgarh, Jharkhand, Odisha plateau parts."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Western Himalayan Region"
+      },
+      {
+       "k": "B",
+       "text": "Eastern Himalayan Region"
+      },
+      {
+       "k": "C",
+       "text": "Lower Gangetic Plains Region"
+      },
+      {
+       "k": "D",
+       "text": "Eastern Plateau and Hills Region"
+      }
+     ],
+     "section": "Agroforestry & agromet",
+     "source": "Planning Commission agro-climatic regional planning; MA-003 short note on ACZ of AP",
+     "stem": "According to the Planning Commission's classification of India into 15 agro-climatic regions, Arunachal Pradesh falls under which region?",
+     "topic": "Agro-climatic regions (Planning Commission)"
+    },
+    {
+     "answer": "A",
+     "explanation": "Large (black) cardamom, Amomum subulatum, is a member of the ginger family Zingiberaceae. It is a shade-loving crop grown under trees such as alder (Alnus nepalensis) in the Eastern Himalaya. It is an important cash crop in Arunachal Pradesh and Sikkim.",
+     "format": "Statements",
+     "hook": "Large cardamom 'A-mom' likes Alder shade – Amomum under Alnus.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Correct: name and family are right; the crop needs shade.",
+      "B": "Wrong: statement 3 is false; it is a shade crop.",
+      "C": "Wrong: statement 3 is false.",
+      "D": "Wrong: statement 3 is false. Small cardamom = Elettaria cardamomum, same family."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Spices & plantation",
+     "source": "Spices Board; Handbook of Horticulture (ICAR)",
+     "stem": "Consider the following statements about large cardamom:\n1. Its botanical name is Amomum subulatum.\n2. It belongs to the family Zingiberaceae.\n3. It is grown on open, sunny slopes without any shade.\nWhich of the statements given above is/are correct?",
+     "topic": "Large cardamom"
+    },
+    {
+     "answer": "A",
+     "explanation": "Nucleus seed is the purest seed kept by the original breeder. It is multiplied into breeder seed, then foundation seed, then certified seed for farmers. Tag colours: breeder – golden yellow, foundation – white, certified – azure blue.",
+     "format": "Sequence",
+     "hook": "'No Body Fails Certification' – Nucleus → Breeder → Foundation → Certified; tags 'Gold, White, Blue'.",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Correct: Nucleus → Breeder → Foundation → Certified.",
+      "B": "Wrong: breeder seed is produced from nucleus seed, not before it.",
+      "C": "Wrong: foundation seed comes from breeder seed, so breeder must come first.",
+      "D": "Wrong: nucleus seed is the starting point, not a middle stage."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "3 - 2 - 4 - 1"
+      },
+      {
+       "k": "B",
+       "text": "2 - 3 - 4 - 1"
+      },
+      {
+       "k": "C",
+       "text": "3 - 4 - 2 - 1"
+      },
+      {
+       "k": "D",
+       "text": "2 - 4 - 3 - 1"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "Seeds Act 1966 / Indian Minimum Seed Certification Standards",
+     "stem": "Arrange the following classes of seed in the correct order of their multiplication:\n1. Certified seed\n2. Breeder seed\n3. Nucleus seed\n4. Foundation seed\nSelect the correct answer using the code given below:",
+     "topic": "Vegetable seed production – seed classes"
+    },
+    {
+     "answer": "D",
+     "explanation": "SSR (simple sequence repeat or microsatellite) markers can tell heterozygotes from homozygotes, so they are co-dominant. RAPD, AFLP and ISSR are dominant: they only show presence or absence of a band. Markers like SSR are used in marker-assisted selection, a biotech tool for crop improvement.",
+     "format": "Single answer",
+     "hook": "'SSR = Sees Both' (co-dominant); RAPD/AFLP/ISSR = just 'present/absent'.",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Wrong: RAPD = Random Amplified Polymorphic DNA; dominant, short random primers.",
+      "B": "Wrong: AFLP = Amplified Fragment Length Polymorphism; dominant, uses restriction + PCR.",
+      "C": "Wrong: ISSR = Inter Simple Sequence Repeat; mostly dominant.",
+      "D": "Correct: SSR / microsatellite – co-dominant, highly polymorphic. RFLP is also co-dominant."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "RAPD"
+      },
+      {
+       "k": "B",
+       "text": "AFLP"
+      },
+      {
+       "k": "C",
+       "text": "ISSR"
+      },
+      {
+       "k": "D",
+       "text": "SSR"
+      }
+     ],
+     "section": "Genetics & breeding",
+     "source": "Plant breeding/biotech text (B.D. Singh)",
+     "stem": "Which one of the following molecular markers is co-dominant in nature?",
+     "topic": "Molecular markers (biotech tools)"
+    },
+    {
+     "answer": "D",
+     "explanation": "Liming materials neutralise acidity because they contain carbonate, oxide, hydroxide or silicate. Gypsum (CaSO4·2H2O) is a neutral salt, so it does not raise pH; it is used to reclaim sodic soils and to supply Ca and S. Most soils of Arunachal Pradesh are acidic, so liming is a key soil acidity management step.",
+     "format": "Odd one out",
+     "hook": "'Gypsum fixes Sodic, Lime fixes Sour' – sulphate does not sweeten acid soil.",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Liming material: CaCO3 (calcite/agricultural lime), the standard reference for liming value.",
+      "B": "Liming material: CaMg(CO3)2; also adds magnesium, useful in leached acid soils.",
+      "C": "Liming material: by-product of the steel industry; Ca silicate plus some P.",
+      "D": "Correct (odd one): neutral salt; amendment for sodic/alkali soils, not acid soils."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Calcium carbonate"
+      },
+      {
+       "k": "B",
+       "text": "Dolomite"
+      },
+      {
+       "k": "C",
+       "text": "Basic slag"
+      },
+      {
+       "k": "D",
+       "text": "Gypsum"
+      }
+     ],
+     "section": "Soil science",
+     "source": "Nature and Properties of Soils (Brady & Weil); ICAR soil science text",
+     "stem": "Which one of the following is NOT a liming material used for correcting soil acidity?",
+     "topic": "Soil acidity management – liming materials"
+    },
+    {
+     "answer": "B",
+     "explanation": "In the hexagonal (equilateral triangle) system each tree is at the centre of a hexagon of six trees at equal distance. This fits about 15% more trees than the square system at the same spacing. On the steep slopes of Arunachal, the contour system is used instead to check soil erosion.",
+     "format": "Single answer",
+     "hook": "'Hexa = Fifteen extra' – six neighbours, 15% more.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Wrong: Quincunx = square + one filler tree in the centre; nearly doubles plant number, filler removed later.",
+      "B": "Correct: Hexagonal/equilateral triangle system – about 15% more plants.",
+      "C": "Wrong: rows wider than plant spacing; helps intercultural operations, no extra plants.",
+      "D": "Wrong: plants along contour lines on hill slopes for soil conservation."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Quincunx system"
+      },
+      {
+       "k": "B",
+       "text": "Hexagonal system"
+      },
+      {
+       "k": "C",
+       "text": "Rectangular system"
+      },
+      {
+       "k": "D",
+       "text": "Contour system"
+      }
+     ],
+     "section": "Propagation & orchard mgmt",
+     "source": "Basics of Horticulture (Jitendra Singh); Handbook of Horticulture",
+     "stem": "Which system of planting accommodates about 15 per cent more plants per unit area than the square system?",
+     "topic": "Systems of planting"
+    }
+   ],
+   "title": "Set 005 · 07 Oct, 22:00",
+   "topics": [
+    "Agroforestry & agromet",
+    "Entomology & nematology",
+    "Extension education",
+    "Genetics & breeding",
+    "Olericulture",
+    "Plant pathology",
+    "Propagation & orchard mgmt",
+    "Soil science",
+    "Spices & plantation"
+   ],
+   "sourceSetId": "set-20261007-2200",
+   "id": "set-20261007-2200"
+  },
+  {
+   "createdAt": "2026-10-08T04:29:00Z",
+   "questions": [
+    {
+     "answer": "C",
+     "explanation": "MAT kills the males before they can mate. For the oriental fruit fly (Bactrocera dorsalis), a pest of guava, mango and citrus, the male attractant is methyl eugenol, mixed with an insecticide (e.g. malathion) on a wooden block or cotton wick. Protein baits are used in the bait application technique (BAT), which draws both sexes, mainly females.",
+     "format": "Single answer",
+     "hook": "MAT = Males Attracted, Terminated. Guava/mango fly → ME (Methyl Eugenol).",
+     "id": "q1",
+     "optionNotes": {
+      "A": "Wrong: protein bait sprays are BAT (bait application technique). They attract both sexes, mostly females, because females need protein to mature their eggs.",
+      "B": "Wrong: cue-lure is the MAT lure for the melon fly (Zeugodacus cucurbitae) in cucurbits, not for the oriental fruit fly.",
+      "C": "Correct: methyl eugenol + insecticide is the standard MAT for B. dorsalis.",
+      "D": "Wrong: yellow sticky traps catch whiteflies, aphids, leafminers and thrips. They are not a male-specific fruit fly lure."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Protein hydrolysate bait + insecticide"
+      },
+      {
+       "k": "B",
+       "text": "Cue-lure + insecticide"
+      },
+      {
+       "k": "C",
+       "text": "Methyl eugenol + insecticide"
+      },
+      {
+       "k": "D",
+       "text": "Yellow sticky sheet"
+      }
+     ],
+     "section": "Entomology & nematology",
+     "source": "Syllabus P-II Entomology: major pests of fruits & IPM. Cross-check: CSM notes/IIHR fruit fly IPM.",
+     "stem": "In the Male Annihilation Technique (MAT) against the oriental fruit fly in guava orchards, the trap contains:",
+     "topic": "Fruit fly lures"
+    },
+    {
+     "answer": "A",
+     "explanation": "Citrus scab is a fungal disease caused by Elsinoë fawcettii (anamorph Sphaceloma fawcettii). It produces raised, corky, wart-like scabs on young leaves, twigs and fruits, and is worst on rough lemon and sour orange. Copper sprays at new flush and fruit set control it.",
+     "format": "Single answer",
+     "hook": "Scab = 'Elsie's warts' → Elsinoë.",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Correct: Elsinoë fawcettii causes citrus (sour orange) scab.",
+      "B": "Wrong: Xanthomonas citri pv. citri is the bacterium behind citrus canker (raised lesions with a yellow halo; acid lime is very susceptible).",
+      "C": "Wrong: Colletotrichum gloeosporioides causes anthracnose/wither-tip (die-back) of citrus.",
+      "D": "Wrong: Phytophthora spp. cause foot rot/gummosis and root rot of citrus. Bordeaux paste on the trunk helps."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Elsinoë fawcettii"
+      },
+      {
+       "k": "B",
+       "text": "Xanthomonas citri pv. citri"
+      },
+      {
+       "k": "C",
+       "text": "Colletotrichum gloeosporioides"
+      },
+      {
+       "k": "D",
+       "text": "Phytophthora parasitica"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Syllabus P-II Plant pathology: diseases of citrus. Cross-check: Instant Horticulture disease tables/CSM pathology notes.",
+     "stem": "Citrus scab is caused by:",
+     "topic": "Citrus diseases – causal organisms"
+    },
+    {
+     "answer": "D",
+     "explanation": "HLB is caused by a phloem-limited bacterium (Candidatus Liberibacter asiaticus) spread by the psyllid Diaphorina citri and by infected budwood. No spray cures an infected tree. Management is preventive: clean planting material, vector control and roguing. It is a major cause of citrus decline in the NE, including Arunachal orange orchards.",
+     "format": "Single answer",
+     "hook": "HLB: 'Clean plant, Kill psyllid, Remove sick'. Copper can't reach the phloem.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Recommended: infected budwood is a main way HLB spreads, so certified nursery stock under nets is the first line of defence.",
+      "B": "Recommended: the Asian citrus psyllid (Diaphorina citri) is the vector. Imidacloprid/thiamethoxam at new flush is standard.",
+      "C": "Recommended: roguing removes the source of the bacterium for psyllids.",
+      "D": "NOT recommended (correct answer): copper oxychloride is a contact bactericide/fungicide used for canker and Phytophthora. It cannot reach or kill the phloem-limited HLB bacterium."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Planting only certified, disease-free budded plants raised under insect-proof nets"
+      },
+      {
+       "k": "B",
+       "text": "Controlling the Asian citrus psyllid with systemic insecticides"
+      },
+      {
+       "k": "C",
+       "text": "Uprooting and destroying infected trees"
+      },
+      {
+       "k": "D",
+       "text": "Spraying copper oxychloride to cure infected trees"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Syllabus P-II Plant pathology: diseases of citrus. Cross-check: CSM notes; ICAR-CCRI Nagpur HLB advisory.",
+     "stem": "Which of the following is NOT a recommended practice for managing citrus greening (HLB)?",
+     "topic": "Citrus greening (HLB)"
+    },
+    {
+     "answer": "B",
+     "explanation": "Breeder seed carries a golden-yellow tag, issued by the breeder or institute. Foundation seed has a white tag and certified seed an azure-blue tag, both issued by the Seed Certification Agency. Truthfully labelled (TL) seed has an opal-green label, with the producer responsible for its quality.",
+     "format": "Match the list",
+     "hook": "'Gold → White → Blue': Breeder is gold, Foundation is white as a sheet, Certified is blue-chip. TL = 'Too Lazy' to certify → green.",
+     "id": "q4",
+     "match": {
+      "left": [
+       "1. Breeder seed",
+       "2. Foundation seed",
+       "3. Certified seed",
+       "4. Truthfully labelled seed"
+      ],
+      "right": [
+       "a. White",
+       "b. Golden yellow",
+       "c. Opal green",
+       "d. Azure blue"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: swaps breeder and foundation; breeder seed is golden yellow, foundation is white.",
+      "B": "Correct: 1-b, 2-a, 3-d, 4-c.",
+      "C": "Wrong: certified seed is azure blue, not opal green. Opal green is for truthfully labelled seed.",
+      "D": "Wrong: breeder seed is not blue. Blue is the certified tag, which is the seed farmers buy."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1-a, 2-b, 3-d, 4-c"
+      },
+      {
+       "k": "B",
+       "text": "1-b, 2-a, 3-d, 4-c"
+      },
+      {
+       "k": "C",
+       "text": "1-b, 2-a, 3-c, 4-d"
+      },
+      {
+       "k": "D",
+       "text": "1-d, 2-a, 3-b, 4-c"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "Syllabus P-I Olericulture: vegetable seed production (new 2026 line). Cross-check: Seeds Act 1966 / Indian Minimum Seed Certification Standards; CSM notes.",
+     "stem": "Match List-I (class of seed) with List-II (colour of tag) and select the correct answer using the code given below:",
+     "topic": "Vegetable seed production – seed classes"
+    },
+    {
+     "answer": "B",
+     "explanation": "'Sardar' and 'Lucknow-49' (L-49) are the same guava cultivar. It is a heavy bearer with large, roundish fruits and white flesh, and is one of the two most widely planted guavas in India, alongside Allahabad Safeda. Guava is a named syllabus crop.",
+     "format": "Single answer",
+     "hook": "'Sardar was 49' → Sardar = L-49.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Wrong: Allahabad Safeda is a separate leading cultivar (round, white-fleshed, good keeping quality).",
+      "B": "Correct: Sardar = Lucknow-49.",
+      "C": "Wrong: Arka Mridula is an ICAR-IIHR (Bengaluru) selection from Allahabad Safeda seedlings.",
+      "D": "Wrong: Lalit is a pink-fleshed ICAR-CISH (Lucknow) selection. It was asked in HDO 2022."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Allahabad Safeda"
+      },
+      {
+       "k": "B",
+       "text": "Lucknow-49"
+      },
+      {
+       "k": "C",
+       "text": "Arka Mridula"
+      },
+      {
+       "k": "D",
+       "text": "Lalit"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Syllabus P-I Pomology: guava (varieties). Cross-check: Instant Horticulture guava page/Handbook of Horticulture.",
+     "stem": "Guava cultivar 'Sardar' is also known as:",
+     "topic": "Varieties – guava"
+    },
+    {
+     "answer": "C",
+     "explanation": "The orange of the North-East hills, including Arunachal Pradesh's orange belts (e.g. Dambuk in Lower Dibang Valley), is the Khasi mandarin (Citrus reticulata). Arunachal Orange is GI-tagged. The crop is mostly seedling-raised, which is one reason orchards decline (along with HLB and Phytophthora).",
+     "format": "Single answer",
+     "hook": "NE hills → Khasi hills → Khasi mandarin.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Wrong: Coorg mandarin is grown in Kodagu (Karnataka) and Wayanad.",
+      "B": "Wrong: Nagpur santra is the mandarin of Vidarbha (Maharashtra). It is famous for the ambia and mrig bahar crops.",
+      "C": "Correct: Khasi mandarin is the mandarin of NE India, including Arunachal.",
+      "D": "Wrong: Kinnow is a hybrid (King × Willow Leaf mandarin) bred in California and grown mainly in Punjab, Haryana and Rajasthan."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Coorg mandarin"
+      },
+      {
+       "k": "B",
+       "text": "Nagpur santra"
+      },
+      {
+       "k": "C",
+       "text": "Khasi mandarin"
+      },
+      {
+       "k": "D",
+       "text": "Kinnow"
+      }
+     ],
+     "section": "AP horticulture",
+     "source": "Syllabus P-I Pomology: citrus + horticulture of AP. Cross-check: CSM AP notes (verify the GI-tag wording).",
+     "stem": "The commercial mandarin of Arunachal Pradesh and the North-East, sold under the GI 'Arunachal Orange', is:",
+     "topic": "Citrus – mandarin of NE/AP"
+    },
+    {
+     "answer": "D",
+     "explanation": "The KVK idea came from the Mohan Singh Mehta Committee (1973). The first KVK opened in 1974 at Puducherry, under Tamil Nadu Agricultural University. KVKs, run by ICAR's network, do on-farm testing, frontline demonstrations and vocational training. Every district of AP has one.",
+     "format": "Single answer",
+     "hook": "'KVK began in Pondy': 1974 → Puducherry.",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Wrong: New Delhi is ICAR/IARI headquarters. IARI's National Demonstration programme (1964) came earlier and was a different scheme.",
+      "B": "Wrong: Coimbatore is TNAU's headquarters. TNAU ran the first KVK, but the KVK itself was at Puducherry.",
+      "C": "Wrong: Ludhiana is home to Punjab Agricultural University, known for Green Revolution extension, not the first KVK.",
+      "D": "Correct: Puducherry, 1974."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "New Delhi"
+      },
+      {
+       "k": "B",
+       "text": "Coimbatore"
+      },
+      {
+       "k": "C",
+       "text": "Ludhiana"
+      },
+      {
+       "k": "D",
+       "text": "Puducherry"
+      }
+     ],
+     "section": "Extension education",
+     "source": "Syllabus P-II Extension education: extension programmes/KVK. Cross-check: CSM extension notes.",
+     "stem": "The first Krishi Vigyan Kendra (KVK) in India was established in 1974 at:",
+     "topic": "KVK – history"
+    },
+    {
+     "answer": "A",
+     "explanation": "Arunachal Pradesh is called the 'Orchid Paradise of India', with roughly 600 orchid species, the most of any state. ICAR's orchid centre (NRC Orchids) is at Pakyong, Sikkim, and the State's Orchid Research Centre is at Tipi, West Kameng. Orchids belong to the Orchidaceae, one of the largest flowering-plant families. Dendrobium, Cymbidium and Vanda are major cut-flower genera.",
+     "format": "Statements",
+     "hook": "Orchids are Orchid-aceae, not Lily-aceae. AP = 'Orchid Paradise' (Tipi ORDC).",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Correct: statements 1 and 2 are true.",
+      "B": "Wrong: statement 3 is false. Orchids are Orchidaceae; Liliaceae contains lilies and tulips.",
+      "C": "Wrong: statement 3 is false.",
+      "D": "Wrong: statement 3 is false."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Floriculture",
+     "source": "Syllabus P-I Floriculture: orchids + floriculture in AP. Cross-check: CSM notes/ORDC Tipi (verify the species count ~600).",
+     "stem": "Consider the following statements about orchids:\n1. Arunachal Pradesh has the highest orchid species diversity among Indian states.\n2. Dendrobium, Cymbidium and Vanda are orchid genera.\n3. Orchids belong to the family Liliaceae.\nWhich of the statements given above is/are correct?",
+     "topic": "Orchids – AP & botany"
+    },
+    {
+     "answer": "C",
+     "explanation": "Boron deficiency causes water-soaked, rusty-brown patches on the curd and a hollow, cracked stem in cauliflower. It is corrected with borax (about 10–15 kg/ha in the soil) or a 0.1–0.2% borax spray. Boron is often deficient in the acidic, leached soils of Arunachal.",
+     "format": "Single answer",
+     "hook": "'Boron = Brown curd.' 'Mo = whiptail' (Mo-Whip).",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Wrong: Mo deficiency causes whiptail of cauliflower (narrow, strap-like leaves), which is common in acid soils. Asked in HDO 2022.",
+      "B": "Wrong: Ca deficiency causes tip burn in cabbage, blossom-end rot in tomato and bitter pit in apple.",
+      "C": "Correct: boron deficiency causes browning of the curd and a hollow stem.",
+      "D": "Wrong: Zn deficiency causes little leaf/rosette, khaira in rice and 'hen and chicken' in grape."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Molybdenum"
+      },
+      {
+       "k": "B",
+       "text": "Calcium"
+      },
+      {
+       "k": "C",
+       "text": "Boron"
+      },
+      {
+       "k": "D",
+       "text": "Zinc"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Syllabus P-I Olericulture: cauliflower + P-II nutrient disorders. Cross-check: Instant Horticulture disorder table.",
+     "stem": "Browning (brown rot) of cauliflower curd, with a hollow stem, is caused by deficiency of:",
+     "topic": "Nutrient deficiency disorders"
+    },
+    {
+     "answer": "A",
+     "explanation": "In polyembryonic citrus (and mango), extra embryos arise from the nucellus, a sporophytic maternal tissue. Since there is no fertilisation, they are genetic copies of the mother plant, so they are true-to-type. Most viruses do not pass into them through the seed. This is why nucellar lines are used for vigorous, virus-free rootstocks. It was asked in HDO 2022.",
+     "format": "Assertion–Reason",
+     "hook": "Nucellar = 'Nu-Clone' (mother's copy, minus the virus).",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Correct: both are true, and R (an apomictic, maternal origin) explains A.",
+      "B": "Wrong: R is the direct reason for A.",
+      "C": "Wrong: R is true. Nucellar embryony is a form of adventive embryony (sporophytic apomixis).",
+      "D": "Wrong: A is true. Nucellar seedlings are uniform and true-to-type."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false but R is true"
+      }
+     ],
+     "section": "Propagation & orchard mgmt",
+     "source": "Syllabus P-I Propagation: sexual/asexual methods, apomixis. Cross-check: Instant Horticulture propagation pages.",
+     "stem": "Assertion (A): Nucellar seedlings of citrus are true-to-type and free from most viruses.\nReason (R): Nucellar embryos develop from the maternal nucellus tissue without fertilisation and do not pass through the infected vascular tissue.",
+     "topic": "Nucellar embryony"
+    }
+   ],
+   "title": "Set 006 · 08 Oct, 09:59",
+   "topics": [
+    "AP horticulture",
+    "Entomology & nematology",
+    "Extension education",
+    "Floriculture",
+    "Olericulture",
+    "Plant pathology",
+    "Plant physiology & PGR",
+    "Pomology",
+    "Propagation & orchard mgmt"
+   ],
+   "sourceSetId": "set-20261008-0959",
+   "id": "set-20261008-0959"
+  },
+  {
+   "createdAt": "2026-10-08T14:30:00Z",
+   "questions": [
+    {
+     "answer": "D",
+     "explanation": "Lalit, released by CISH Lucknow, has a saffron-yellow skin with a red blush and firm pink flesh. It suits both table use and processing (pink pulp, jelly). Allahabad Safeda, Sardar and Arka Mridula are all white-fleshed. Lalit was asked in the HDO 2022 paper.",
+     "format": "Single answer",
+     "hook": "LALIT = LALima (redness) inside: Lalit is the pink one.",
+     "id": "q1",
+     "optionNotes": {
+      "A": "Wrong: Allahabad Safeda is the classic white-fleshed table guava with round fruit and soft seeds.",
+      "B": "Wrong: Sardar = Lucknow-49, a white-fleshed selection from CISH Lucknow, tolerant to wilt.",
+      "C": "Wrong: Arka Mridula (IIHR) is a white-fleshed selection from Allahabad Safeda with soft seeds.",
+      "D": "Correct: Lalit (CISH) has pink flesh and red-blushed skin; good for processing."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Allahabad Safeda"
+      },
+      {
+       "k": "B",
+       "text": "Sardar (Lucknow-49)"
+      },
+      {
+       "k": "C",
+       "text": "Arka Mridula"
+      },
+      {
+       "k": "D",
+       "text": "Lalit"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Syllabus P-I Pomology: guava (varieties). Cross-check: CSM notes / Instant Horticulture guava varieties.",
+     "stem": "Which guava variety has PINK flesh?",
+     "topic": "Varieties – guava"
+    },
+    {
+     "answer": "C",
+     "explanation": "Wither-tip or anthracnose of citrus is caused by the fungus Colletotrichum gloeosporioides. Twigs dry from the tip downwards, and the fungus also causes fruit rot and stem-end drop. It is one of the factors behind citrus decline (dieback) in old, poorly managed mandarin orchards of the NE, including Arunachal. Control: prune dead wood and spray copper oxychloride or carbendazim.",
+     "format": "Single answer",
+     "hook": "Colletotrichum = Cuts the tip: twigs WITHER from the TIP.",
+     "id": "q2",
+     "optionNotes": {
+      "A": "Wrong: Xanthomonas citri subsp. citri is a bacterium; it causes citrus CANKER (raised corky lesions with a yellow halo).",
+      "B": "Wrong: Elsinoe fawcettii causes citrus SCAB (warty, corky outgrowths on leaves and fruit).",
+      "C": "Correct: Colletotrichum gloeosporioides causes wither-tip / anthracnose.",
+      "D": "Wrong: Phytophthora spp. (P. nicotianae var. parasitica, P. citrophthora) cause foot rot / gummosis at the collar region."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Xanthomonas citri"
+      },
+      {
+       "k": "B",
+       "text": "Elsinoe fawcettii"
+      },
+      {
+       "k": "C",
+       "text": "Colletotrichum gloeosporioides"
+      },
+      {
+       "k": "D",
+       "text": "Phytophthora nicotianae var. parasitica"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Syllabus P-II Plant pathology: diseases of citrus. Cross-check: CSM pathology notes.",
+     "stem": "Wither-tip (twig blight / anthracnose) of citrus is caused by:",
+     "topic": "Citrus diseases – causal organisms"
+    },
+    {
+     "answer": "A",
+     "explanation": "Seed multiplies in a fixed chain: Nucleus → Breeder → Foundation → Certified. So foundation seed is grown from breeder seed. It is produced by State Seed Corporations, NSC or SAU farms, and certified by the State Seed Certification Agency, which gives it a WHITE tag.",
+     "format": "Single answer",
+     "hook": "N-B-F-C = 'No Brother Fails Certification'. Foundation comes right after Breeder.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Correct: breeder seed (golden-yellow tag) is the parent of foundation seed (white tag).",
+      "B": "Wrong: nucleus seed is the purest, first handful kept by the original breeder. It gives rise to BREEDER seed, not foundation seed.",
+      "C": "Wrong: certified seed (blue tag) is produced FROM foundation seed. It is the last stage and goes to farmers.",
+      "D": "Wrong: truthfully labelled (TL) seed is sold under the producer's own label, without certification. It is not part of the certification chain (its label colour is opal green; verify)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Breeder seed"
+      },
+      {
+       "k": "B",
+       "text": "Nucleus seed"
+      },
+      {
+       "k": "C",
+       "text": "Certified seed"
+      },
+      {
+       "k": "D",
+       "text": "Truthfully labelled seed"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "Syllabus P-I Olericulture: vegetable seed production (new 2026 line). Cross-check: CSM seed production notes; Indian Minimum Seed Certification Standards.",
+     "stem": "Foundation seed is produced from:",
+     "topic": "Vegetable seed production – seed classes"
+    },
+    {
+     "answer": "B",
+     "explanation": "Most citrus seeds hold several embryos: one zygotic and many nucellar (polyembryony). Pummelo is the well-known exception; it is monoembryonic, so its seedlings are zygotic and vary. Rough lemon and Rangpur lime are highly polyembryonic, which is why they make uniform, true-to-type rootstock seedlings. Khasi mandarin, the orange of Arunachal and the NE, is also polyembryonic.",
+     "format": "Single answer",
+     "hook": "Pummelo is the 'Plain One': ONE embryo, no nucellar babies.",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Wrong: rough lemon (C. jambhiri) is highly polyembryonic; a vigorous rootstock suited to light soils.",
+      "B": "Correct: pummelo (C. grandis / C. maxima) is monoembryonic, so it is useful as a female parent in hybridisation.",
+      "C": "Wrong: Rangpur lime (C. limonia) is polyembryonic; a drought-tolerant rootstock, also tolerant to tristeza.",
+      "D": "Wrong: Khasi mandarin (C. reticulata) is polyembryonic. NE growers raise it from seed, and the nucellar seedlings are true-to-type."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Rough lemon"
+      },
+      {
+       "k": "B",
+       "text": "Pummelo (Citrus grandis)"
+      },
+      {
+       "k": "C",
+       "text": "Rangpur lime"
+      },
+      {
+       "k": "D",
+       "text": "Khasi mandarin"
+      }
+     ],
+     "section": "Propagation & orchard mgmt",
+     "source": "Syllabus P-I Propagation: apomixis/polyembryony; citrus. Cross-check: Instant Horticulture citrus chapter; verify.",
+     "stem": "Which of the following citrus types is MONOEMBRYONIC?",
+     "topic": "Nucellar embryony"
+    },
+    {
+     "answer": "C",
+     "explanation": "Chrysanthemum is a classic short-day plant. Growers use black cloth (shading) for year-round flowering and night breaks to delay it. Gladiolus is propagated by corms, and the small cormels are grown on for 1–2 seasons into flowering corms. Statement 3 is wrong: Tagetes patula is the FRENCH marigold; the African marigold is Tagetes erecta (asked in HDO 2022).",
+     "format": "Statements",
+     "hook": "African = Erect & tall (T. erecta); French = Petite (T. patula).",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Wrong: it includes statement 3, which swaps the marigold names.",
+      "B": "Wrong: it leaves out statement 1, which is also correct (chrysanthemum is a short-day plant).",
+      "C": "Correct: 1 and 2 are true; 3 is false.",
+      "D": "Wrong: statement 3 is false. T. patula = French marigold (dwarf, small flowers); T. erecta = African marigold (tall, large double flowers)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "B",
+       "text": "2 only"
+      },
+      {
+       "k": "C",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Floriculture",
+     "source": "Syllabus P-I Floriculture: chrysanthemum, gladiolus, marigold. Cross-check: CSM floriculture notes; HDO 2022 Q37.",
+     "stem": "Consider the following statements:\n1. Chrysanthemum is a short-day plant; long nights induce flowering.\n2. Gladiolus is commercially propagated by corms and cormels.\n3. Tagetes patula is the African marigold.\nWhich of the statements given above is/are correct?",
+     "topic": "Chrysanthemum, gladiolus, marigold – basics"
+    },
+    {
+     "answer": "B",
+     "explanation": "Woolly apple aphid sucks sap from roots and branches under a white waxy 'wool' and forms galls on roots. Aphelinus mali is a host-specific parasitoid introduced for its biocontrol in Indian apple-growing hills. Resistant rootstocks of the Malling-Merton (MM) series, such as MM 106, also help against it. This is relevant to apple in the temperate belts of Arunachal (Tawang, West Kameng).",
+     "format": "Single answer",
+     "hook": "Aphelinus MALI: MALus (apple) has its own wasp.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Wrong: Trichogramma chilonis is an EGG parasitoid of lepidopteran pests (e.g. borers); it is released as Tricho-cards.",
+      "B": "Correct: Aphelinus mali parasitises the woolly apple aphid.",
+      "C": "Wrong: Encarsia formosa is a parasitoid of greenhouse WHITEFLY.",
+      "D": "Wrong: Cryptolaemus montrouzieri ('mealybug destroyer') is a ladybird PREDATOR of mealybugs; it is not a parasitoid."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Trichogramma chilonis"
+      },
+      {
+       "k": "B",
+       "text": "Aphelinus mali"
+      },
+      {
+       "k": "C",
+       "text": "Encarsia formosa"
+      },
+      {
+       "k": "D",
+       "text": "Cryptolaemus montrouzieri"
+      }
+     ],
+     "section": "Entomology & nematology",
+     "source": "Syllabus P-II Entomology: major pests of fruits; biological control. Cross-check: CSM entomology notes.",
+     "stem": "The parasitoid used for biological control of the woolly apple aphid (Eriosoma lanigerum) is:",
+     "topic": "Apple pests – woolly aphid"
+    },
+    {
+     "answer": "D",
+     "explanation": "The bark and leaves of Taxus contain paclitaxel (taxol), an anticancer drug used against ovarian and breast cancers. Over-harvesting of the bark has made Himalayan yew a threatened species. Conservation and cultivation of such high-value MAPs is part of the scope of MAPs in Arunachal (a repeated Mains theme).",
+     "format": "Single answer",
+     "hook": "TAXus → TAXol: kills cancer cells.",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Wrong: berberine is the yellow alkaloid of Mishmi Teeta (Coptis teeta) and Berberis.",
+      "B": "Wrong: jatamansone comes from Nardostachys jatamansi (spikenard), whose roots are used as a sedative and in aromatics.",
+      "C": "Wrong: aconitine is the highly poisonous alkaloid of Aconitum (monkshood).",
+      "D": "Correct: paclitaxel (taxol) comes from Taxus."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Berberine"
+      },
+      {
+       "k": "B",
+       "text": "Jatamansone"
+      },
+      {
+       "k": "C",
+       "text": "Aconitine"
+      },
+      {
+       "k": "D",
+       "text": "Paclitaxel (Taxol)"
+      }
+     ],
+     "section": "Medicinal & aromatic plants",
+     "source": "Syllabus P-I MAPs (AP-relevant crops). Cross-check: CSM MAP notes; Handbook of Horticulture MAPs.",
+     "stem": "Himalayan yew (Taxus wallichiana), found in the temperate forests of Arunachal Pradesh, is the source of the anticancer drug:",
+     "topic": "Taxus – taxol"
+    },
+    {
+     "answer": "A",
+     "explanation": "SALT grows field and horticultural crops in strips between double hedgerows of nitrogen-fixing shrubs planted along the contour. The hedgerows check soil erosion and supply green-leaf manure. It was developed in the Philippines and is promoted for NE hills as a settled alternative to jhum, together with contour bunding, bench terraces and horticulture-based agroforestry.",
+     "format": "Single answer",
+     "hook": "SALT the slope: Strips Along Lines of Trees (contour hedgerows).",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Correct: SALT = contour hedgerows of N-fixing shrubs + crops in alleys; it reduces erosion.",
+      "B": "Wrong: a shorter jhum cycle is the PROBLEM. It does not let the fallow restore fertility, so soils degrade.",
+      "C": "Wrong: up-and-down cultivation speeds up runoff and erosion. Hill farming must be done ACROSS the slope (on the contour).",
+      "D": "Wrong: trees such as Nepal alder in jhum fallows fix N and conserve soil; removing them speeds up degradation."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Sloping Agricultural Land Technology (SALT)"
+      },
+      {
+       "k": "B",
+       "text": "Shortening the jhum cycle to 2–3 years"
+      },
+      {
+       "k": "C",
+       "text": "Up-and-down-slope clean cultivation"
+      },
+      {
+       "k": "D",
+       "text": "Removing all trees from jhum fallows"
+      }
+     ],
+     "section": "Agroforestry & agromet",
+     "source": "Syllabus P-II Agroforestry: jhum & agroforestry systems in AP. Cross-check: CSM agroforestry notes; ICAR NEH soil conservation.",
+     "stem": "Which of the following is a recommended alternative to jhum (shifting cultivation) on the hill slopes of Arunachal Pradesh?",
+     "topic": "Alternatives to jhum – SALT"
+    },
+    {
+     "answer": "D",
+     "explanation": "Panama wilt is a soil-borne Fusarium wilt; Gros Michel was very susceptible to it, and TR4 is the current threat. Sigatoka (yellow) leaf spot is caused by Mycosphaerella musicola. Bunchy top is caused by BBTV (a nanovirus) spread by the banana aphid Pentalonia nigronervosa. Moko is a bacterial wilt caused by Ralstonia solanacearum race 2. Panama wilt and bunchy top were both asked in HDO 2022.",
+     "format": "Match the list",
+     "hook": "Fusarium = Panama (F-P); Mycosphaerella = Sigatoka (spots); Moko = bacteria (Ralstonia); Bunchy = Virus + aphid.",
+     "id": "q9",
+     "match": {
+      "left": [
+       "a. Panama wilt",
+       "b. Sigatoka leaf spot",
+       "c. Bunchy top",
+       "d. Moko disease"
+      ],
+      "right": [
+       "1. Ralstonia solanacearum",
+       "2. Banana bunchy top virus",
+       "3. Mycosphaerella musicola",
+       "4. Fusarium oxysporum f. sp. cubense"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: it swaps Sigatoka and bunchy top. Sigatoka is fungal (Mycosphaerella), not the virus.",
+      "B": "Wrong: Fusarium causes Panama wilt, not Sigatoka; Ralstonia causes Moko, not bunchy top.",
+      "C": "Wrong: Ralstonia is a bacterium causing Moko, not Panama wilt (Panama is fungal, Fusarium).",
+      "D": "Correct: a-4 (Fusarium), b-3 (Mycosphaerella), c-2 (BBTV), d-1 (Ralstonia)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "a-4, b-2, c-3, d-1"
+      },
+      {
+       "k": "B",
+       "text": "a-3, b-4, c-1, d-2"
+      },
+      {
+       "k": "C",
+       "text": "a-1, b-3, c-2, d-4"
+      },
+      {
+       "k": "D",
+       "text": "a-4, b-3, c-2, d-1"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Syllabus P-II Plant pathology: diseases of banana. Cross-check: CSM pathology notes; HDO 2022 Q79–81.",
+     "stem": "Match List-I (banana disease) with List-II (causal organism) and select the correct answer:",
+     "topic": "Banana diseases – causal organisms"
+    },
+    {
+     "answer": "A",
+     "explanation": "Kiwi does not change skin colour at maturity, so harvest is judged by TSS: about 6.2% (minimum) to 6.5° Brix. Because it is climacteric, the hard fruit ripens and softens after harvest, which can be sped up with ethylene. This is also why it stores for months in cold storage. Kiwi is very sensitive to ethylene, so it should not be stored with apples. For Ziro growers, correct harvest maturity is key to marketing outside the state.",
+     "format": "Assertion–Reason",
+     "hook": "Kiwi: pick at 6.2, soften at home: climacteric, ripens after picking.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Correct: R (climacteric, ripens after harvest) explains why hard, mature kiwi is picked and ripened off the vine.",
+      "B": "Wrong: R is not a separate fact here; it is the very reason off-vine ripening works.",
+      "C": "Wrong: R is true. Kiwi is climacteric (like apple, banana, guava), unlike non-climacteric citrus and pineapple.",
+      "D": "Wrong: A is true. The 6.2% TSS harvest index is the standard textbook figure for kiwi."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true, but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false, but R is true"
+      }
+     ],
+     "section": "Post-harvest & marketing",
+     "source": "Syllabus P-I Pomology: kiwi; P-II Post-harvest: maturity indices. Cross-check: CSM PHT notes; Instant Horticulture kiwi; verify TSS figure.",
+     "stem": "Assertion (A): Kiwifruit, such as the kiwi of Ziro valley, is harvested hard at about 6.2–6.5% TSS and ripened off the vine.\nReason (R): Kiwifruit is a climacteric fruit that ripens after harvest.",
+     "topic": "Kiwi – harvest maturity & ripening"
+    }
+   ],
+   "title": "Set 007 · 08 Oct, 20:00",
+   "topics": [
+    "Agroforestry & agromet",
+    "Entomology & nematology",
+    "Floriculture",
+    "Medicinal & aromatic plants",
+    "Olericulture",
+    "Plant pathology",
+    "Pomology",
+    "Post-harvest & marketing",
+    "Propagation & orchard mgmt"
+   ],
+   "sourceSetId": "set-20261008-2000",
+   "id": "set-20261008-2000"
+  },
+  {
+   "createdAt": "2026-10-09T15:29:00Z",
+   "questions": [
+    {
+     "answer": "D",
+     "explanation": "Nucellar embryos arise from the nucellus (maternal tissue), not from fertilisation, so the seedlings are clones of the mother tree. Most citrus viruses are not seed-transmitted, so nucellar lines start virus-free. They are very vigorous but stay juvenile (thorny, late bearing) for years. This is why polyembryonic types are used as uniform rootstocks (2022 HDO asked nucellar seedlings).",
+     "format": "Single answer",
+     "hook": "NUCELLUS = MUM's cells: copy of mum, clean of virus, but a thorny teenager.",
+     "id": "q1",
+     "optionNotes": {
+      "A": "True: nucellar embryony is a form of apomixis (adventive embryony), so seedlings are maternal clones.",
+      "B": "True: viruses rarely pass through seed, so nucellar clones are a classic route to virus-free citrus stock.",
+      "C": "True: nucellar seedlings show juvenile traits – vigour, thorns, delayed bearing.",
+      "D": "Correct: all three features apply. (Pummelo and citron are monoembryonic, so they give no nucellar seedlings.)"
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Genetically identical (true-to-type) to the mother plant"
+      },
+      {
+       "k": "B",
+       "text": "Generally free from viruses"
+      },
+      {
+       "k": "C",
+       "text": "Vigorous, with long juvenility and thorniness"
+      },
+      {
+       "k": "D",
+       "text": "All of the above"
+      }
+     ],
+     "section": "Propagation & orchard mgmt",
+     "source": "Syllabus P-I Propagation (apomixis/polyembryony) + Citrus. Cross-check: Instant Horticulture citrus propagation; CSM notes.",
+     "stem": "Nucellar seedlings of citrus are:",
+     "topic": "Nucellar embryony"
+    },
+    {
+     "answer": "C",
+     "explanation": "Lalit (pink flesh) is from CISH Lucknow; Arka Mridula (soft-seeded selection from Allahabad Safeda) is from IIHR; Hisar Safeda (Allahabad Safeda × Seedless) is from HAU Hisar; Pant Prabhat is from Pantnagar. The name usually tells you the place: Arka = IIHR, Hisar = HAU, Pant = Pantnagar.",
+     "format": "Match the list",
+     "hook": "Name = address: ARKA→IIHR, HISAR→HAU, PANT→Pantnagar, LALIT→Lucknow (both L).",
+     "id": "q2",
+     "match": {
+      "left": [
+       "P. Lalit",
+       "Q. Arka Mridula",
+       "R. Hisar Safeda",
+       "S. Pant Prabhat"
+      ],
+      "right": [
+       "1. GBPUAT, Pantnagar",
+       "2. ICAR-CISH, Lucknow",
+       "3. HAU (CCSHAU), Hisar",
+       "4. ICAR-IIHR, Bengaluru"
+      ]
+     },
+     "optionNotes": {
+      "A": "Wrong: Arka is always IIHR Bengaluru, never Hisar.",
+      "B": "Wrong: Lalit is CISH Lucknow, not IIHR.",
+      "C": "Correct: P-2, Q-4, R-3, S-1.",
+      "D": "Wrong: Lalit is not from Pantnagar; Pant Prabhat is."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "P-2, Q-3, R-4, S-1"
+      },
+      {
+       "k": "B",
+       "text": "P-4, Q-2, R-3, S-1"
+      },
+      {
+       "k": "C",
+       "text": "P-2, Q-4, R-3, S-1"
+      },
+      {
+       "k": "D",
+       "text": "P-1, Q-4, R-3, S-2"
+      }
+     ],
+     "section": "Pomology",
+     "source": "Syllabus P-I Pomology: guava varieties. Cross-check CSM notes / Instant Horticulture guava varieties; verify Hisar Safeda parentage.",
+     "stem": "Match the guava variety (List I) with the institute that released it (List II):",
+     "topic": "Varieties – guava"
+    },
+    {
+     "answer": "B",
+     "explanation": "The KVK idea came from the Education Commission (1964–66); ICAR then set up a committee under Dr Mohan Singh Mehta (1973) which recommended KVKs. The first KVK started in 1974 at Puducherry (TNAU). KVKs work on 'learning by doing' and are coordinated through ICAR-ATARI (Zone VI Guwahati covers Arunachal).",
+     "format": "Single answer",
+     "hook": "MEHTA made the KVK MAP: Mehta '73 → Puducherry '74.",
+     "id": "q3",
+     "optionNotes": {
+      "A": "Wrong: Swaminathan is linked with the Green Revolution and the National Commission on Farmers (2004).",
+      "B": "Correct: Mohan Singh Mehta Committee, 1973.",
+      "C": "Wrong: D.S. Kothari chaired the Education Commission (1964–66), which first floated the idea, not the 1973 committee.",
+      "D": "Wrong: M.S. Randhawa was a horticulturist-administrator (first ICAR vice-president, father of Indian horticulture writing)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Dr M.S. Swaminathan"
+      },
+      {
+       "k": "B",
+       "text": "Dr Mohan Singh Mehta"
+      },
+      {
+       "k": "C",
+       "text": "Dr D.S. Kothari"
+      },
+      {
+       "k": "D",
+       "text": "Dr M.S. Randhawa"
+      }
+     ],
+     "section": "Extension education",
+     "source": "Syllabus P-II Extension education (KVK, extension systems). Cross-check: CSM extension notes; verify.",
+     "stem": "The ICAR committee (1973) that recommended setting up Krishi Vigyan Kendras was headed by:",
+     "topic": "KVK – history"
+    },
+    {
+     "answer": "A",
+     "explanation": "Olericulture = oleris (pot herb) + colere (to cultivate). Pomology = pomum (fruit) + logos (study). Horticulture = hortus (GARDEN, an enclosure) + cultura (cultivation), so statement 3 is wrong. The 2022 HDO paper asked 'Pomology is derived from…'.",
+     "format": "Statements",
+     "hook": "OLERIS = pot on the stove (vegetables), POMUM = pome (fruit), HORTUS = garden (not field; field = AGER → agriculture).",
+     "id": "q4",
+     "optionNotes": {
+      "A": "Correct: 1 and 2 are right; hortus is garden, not field.",
+      "B": "Wrong: statement 3 is false.",
+      "C": "Wrong: statement 3 is false and statement 2 is true.",
+      "D": "Wrong: 'field' is ager (as in agriculture); hortus = garden."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "1 and 2 only"
+      },
+      {
+       "k": "B",
+       "text": "2 and 3 only"
+      },
+      {
+       "k": "C",
+       "text": "1 and 3 only"
+      },
+      {
+       "k": "D",
+       "text": "1, 2 and 3"
+      }
+     ],
+     "section": "Olericulture",
+     "source": "Syllabus P-I General horticulture (definitions, branches). Cross-check: Instant Horticulture ch. 1.",
+     "stem": "Consider the following statements:\n1. 'Olericulture' is derived from the Latin 'oleris' meaning pot herb.\n2. 'Pomology' is derived from the Latin 'pomum' meaning fruit.\n3. In 'Horticulture', the Latin word 'hortus' means field.\nWhich of the statements given above is/are correct?",
+     "topic": "Oleris = pot herbs"
+    },
+    {
+     "answer": "C",
+     "explanation": "Fire blight is a bacterial disease: blossoms, shoots and leaves turn black as if scorched, shoot tips bend like a 'shepherd's crook', and bacterial ooze appears. It was the first plant disease proved to be caused by a bacterium (Burrill). Pear is more susceptible than apple. Control: prune infected shoots well below cankers, copper or streptomycin at bloom.",
+     "format": "Single answer",
+     "hook": "FIRE in the ERWIN-oven: scorched pear, shepherd's crook.",
+     "id": "q5",
+     "optionNotes": {
+      "A": "Wrong: Venturia inaequalis causes apple scab (asked in HDO 2022).",
+      "B": "Wrong: Podosphaera leucotricha causes powdery mildew of apple.",
+      "C": "Correct: Erwinia amylovora, a Gram-negative bacterium, causes fire blight.",
+      "D": "Wrong: Xanthomonas citri causes citrus canker (bacterial; spread by leaf miner wounds)."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Venturia inaequalis"
+      },
+      {
+       "k": "B",
+       "text": "Podosphaera leucotricha"
+      },
+      {
+       "k": "C",
+       "text": "Erwinia amylovora"
+      },
+      {
+       "k": "D",
+       "text": "Xanthomonas citri subsp. citri"
+      }
+     ],
+     "section": "Plant pathology",
+     "source": "Syllabus P-II Plant pathology: diseases of apple and pear. Cross-check: CSM pathology notes / Handbook of Horticulture.",
+     "stem": "Fire blight of pear and apple is caused by:",
+     "topic": "Fire blight – pear/apple"
+    },
+    {
+     "answer": "A",
+     "explanation": "Zinc deficiency shortens internodes so small, narrow leaves cluster in rosettes at shoot tips (little leaf). Corrected by zinc sulphate sprays (often with lime) or soil application. Zinc is needed for auxin (tryptophan) synthesis, which explains the shortened internodes.",
+     "format": "Single answer",
+     "hook": "ZINC = shrink: small leaves, short internodes, rosette.",
+     "id": "q6",
+     "optionNotes": {
+      "A": "Correct: Zn deficiency → rosette/little leaf in apple (also 'hen and chicken' in grape).",
+      "B": "Wrong: boron deficiency in apple gives internal/external cork; in cauliflower, browning and hollow stem.",
+      "C": "Wrong: calcium deficiency gives bitter pit in apple (HDO 2022 question).",
+      "D": "Wrong: molybdenum deficiency gives whiptail of cauliflower."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Zinc"
+      },
+      {
+       "k": "B",
+       "text": "Boron"
+      },
+      {
+       "k": "C",
+       "text": "Calcium"
+      },
+      {
+       "k": "D",
+       "text": "Molybdenum"
+      }
+     ],
+     "section": "Plant physiology & PGR",
+     "source": "Syllabus P-I Nutrition/physiological disorders + Pomology: apple. Cross-check: Instant Horticulture disorders table.",
+     "stem": "Rosette or 'little leaf' of apple is caused by deficiency of:",
+     "topic": "Nutrient deficiency disorders"
+    },
+    {
+     "answer": "B",
+     "explanation": "Anthurium (family Araceae) has tiny true flowers packed on a finger-like spadix; the glossy coloured 'flower' is the spathe, a modified bract. Cut anthurium has a long vase life (asked in HDO 2022) and is grown under shade nets/polyhouses in the NE hills, including Arunachal.",
+     "format": "Single answer",
+     "hook": "SPATHE = SHIELD (heart-shaped bract); SPADIX = STICK with the real flowers.",
+     "id": "q7",
+     "optionNotes": {
+      "A": "Wrong: the spadix is the central spike that bears the tiny true flowers.",
+      "B": "Correct: the spathe is a large coloured bract surrounding the spadix.",
+      "C": "Wrong: tepals are undifferentiated perianth parts (as in lily, tulip).",
+      "D": "Wrong: petals are part of the corolla; aroids have no showy petals."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Spadix"
+      },
+      {
+       "k": "B",
+       "text": "Spathe"
+      },
+      {
+       "k": "C",
+       "text": "Tepal"
+      },
+      {
+       "k": "D",
+       "text": "Petal"
+      }
+     ],
+     "section": "Floriculture",
+     "source": "Syllabus P-I Floriculture: anthurium. Cross-check: CSM floriculture notes.",
+     "stem": "In anthurium, the showy, coloured, heart-shaped part sold as the 'flower' is botanically a:",
+     "topic": "Anthurium – morphology"
+    },
+    {
+     "answer": "D",
+     "explanation": "Kiwi is a vigorous, dioecious, deciduous climber, so it needs a strong overhead support. The T-bar and the pergola (bower/overhead trellis) are the standard systems; male vines are interplanted with females for pollination. Ziro valley is Arunachal's best-known kiwi belt and the state has organic-certified kiwi.",
+     "format": "Single answer",
+     "hook": "Kiwi climbs to the ROOF: T-bar or pergola.",
+     "id": "q8",
+     "optionNotes": {
+      "A": "Wrong: Kniffin (four-arm, two-wire) is a grape training system.",
+      "B": "Wrong: head system is low-cost grape training for low-vigour vines.",
+      "C": "Wrong: espalier trains trees flat against a wall/wire, as in apple and pear in small gardens.",
+      "D": "Correct: T-bar and pergola are the standard kiwi trellises."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Kniffin system"
+      },
+      {
+       "k": "B",
+       "text": "Head system"
+      },
+      {
+       "k": "C",
+       "text": "Espalier"
+      },
+      {
+       "k": "D",
+       "text": "T-bar and pergola (bower)"
+      }
+     ],
+     "section": "AP horticulture",
+     "source": "Syllabus P-I Pomology: kiwi (+AP angle). Cross-check: Handbook of Horticulture kiwi chapter.",
+     "stem": "Kiwifruit vines in orchards such as those of Ziro (Lower Subansiri) are commonly trained on:",
+     "topic": "Kiwi – training system (Ziro)"
+    },
+    {
+     "answer": "C",
+     "explanation": "The rhizomes and roots of kutki contain the bitter iridoid glycosides picroside I and II (kutkin), used as a liver tonic and in jaundice. It grows in alpine zones and is over-harvested, so it is a conservation priority. The syllabus lists Picrorhiza among AP's high-altitude MAPs (Tawang, West Kameng).",
+     "format": "Single answer",
+     "hook": "KUTKI = KUT the jaundice: bitter root for the liver.",
+     "id": "q9",
+     "optionNotes": {
+      "A": "Wrong: that is jatamansi (Nardostachys jatamansi) – rhizome oil, sedative.",
+      "B": "Wrong: taxol (paclitaxel) comes from Taxus (Himalayan yew).",
+      "C": "Correct: kutki's picrosides are hepatoprotective.",
+      "D": "Wrong: quinine comes from Cinchona bark."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Sedative and aromatic oil"
+      },
+      {
+       "k": "B",
+       "text": "Anticancer drug taxol"
+      },
+      {
+       "k": "C",
+       "text": "Liver disorders (hepatoprotective)"
+      },
+      {
+       "k": "D",
+       "text": "Antimalarial quinine"
+      }
+     ],
+     "section": "Medicinal & aromatic plants",
+     "source": "Syllabus P-I MAPs of AP (Picrorhiza). Cross-check: CSM MAP notes; verify distribution in AP districts.",
+     "stem": "Kutki (Picrorhiza kurroa), a high-altitude medicinal herb of the eastern Himalaya, is mainly used for:",
+     "topic": "Kutki (Picrorhiza kurroa)"
+    },
+    {
+     "answer": "A",
+     "explanation": "Climacteric fruits (banana, apple, kiwi, guava) can ripen after harvest because of the ethylene/respiration burst, so they are picked mature-green and ripened in chambers (about 100 ppm ethylene, 18–20 °C) or dipped in ethephon. Non-climacteric fruits (citrus, pineapple, grape) do not ripen after picking and must be harvested ripe.",
+     "format": "Assertion–Reason",
+     "hook": "CLIMACTERIC = CLIMBS after harvest: pick green, ripen later.",
+     "id": "q10",
+     "optionNotes": {
+      "A": "Correct: R directly explains why A is possible.",
+      "B": "Wrong: R is the reason, not an unrelated fact.",
+      "C": "Wrong: R is true – banana is climacteric.",
+      "D": "Wrong: A is true – commercial banana is always picked mature-green."
+     },
+     "options": [
+      {
+       "k": "A",
+       "text": "Both A and R are true, and R is the correct explanation of A"
+      },
+      {
+       "k": "B",
+       "text": "Both A and R are true, but R is not the correct explanation of A"
+      },
+      {
+       "k": "C",
+       "text": "A is true, but R is false"
+      },
+      {
+       "k": "D",
+       "text": "A is false, but R is true"
+      }
+     ],
+     "section": "Post-harvest & marketing",
+     "source": "Syllabus P-II Post-harvest technology (ripening, climacteric). Cross-check: Instant Horticulture PHT; verify ethylene dose.",
+     "stem": "Assertion (A): Banana is harvested at the mature-green stage and ripened later with ethylene or ethephon.\nReason (R): Banana is a climacteric fruit that shows a rise in respiration and ethylene during ripening.",
+     "topic": "Banana ripening – climacteric"
+    }
+   ],
+   "title": "Set 008 · 09 Oct, 20:59",
+   "topics": [
+    "AP horticulture",
+    "Extension education",
+    "Floriculture",
+    "Medicinal & aromatic plants",
+    "Olericulture",
+    "Plant pathology",
+    "Plant physiology & PGR",
+    "Pomology",
+    "Post-harvest & marketing",
+    "Propagation & orchard mgmt"
+   ],
+   "sourceSetId": "set-20261009-2059",
+   "id": "set-20261009-2059"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HDO Prelims</string>
+    <string name="title_activity_main">HDO Prelims</string>
+    <string name="package_name">in.tawang.hdoprelims</string>
+    <string name="custom_url_scheme">in.tawang.hdoprelims</string>
+</resources>

@@ -1,0 +1,14 @@
+{
+  "appId": "in.tawang.hdoprelims",
+  "appName": "HDO Prelims",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#1f5b3c",
+      "smallIcon": "ic_stat_leaf"
+    }
+  }
+}
